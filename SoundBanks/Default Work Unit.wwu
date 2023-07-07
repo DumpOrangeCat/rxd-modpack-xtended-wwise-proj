@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8F868A22-43EC-42E2-A5BA-CD21A2C1E6C4}" SchemaVersion="97">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{8F868A22-43EC-42E2-A5BA-CD21A2C1E6C4}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="apk" ID="{06133294-F6FC-4CAE-BC11-FC8BE643E03C}">
+					<ObjectInclusionList>
+						<ObjectRef Name="ue_wwise_ext_input_ffmpeg_01" ID="{AFB27944-056B-4197-BDA9-C164A33205CF}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_ui_btn_server_select" ID="{7BEEEEAC-81F3-41B9-AEAC-98E948431078}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_hang_gen_music_stinger_short" ID="{D4FAFC94-9873-431F-B99D-FF15BC40EBB2}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_buttons_close" ID="{2AF872B8-7170-43E2-8FD3-BE92EFFE2D3C}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_buttons_ok" ID="{C0BD9CA2-BBC6-4553-B592-3986D0E02CE5}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_buttons_cancel" ID="{962C21C0-BF35-457D-99FE-AAC84B9E23CF}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_buttons_open" ID="{E8E504F8-CA3B-46B6-9093-026114BC05AB}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hangar_ambient_loginscreen_v1_loginscreen" ID="{DE19111F-DD57-4A60-80A0-EE76BF9DDEB9}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_buttons_choose" ID="{E19CE6CF-83F3-4C7A-A001-AFB8E1327F1E}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="explosions" ID="{18B67F06-5BD7-41FA-BF23-207D45E3088A}">
+					<ObjectInclusionList>
+						<ObjectRef Name="hits_tank_death_tank_death" ID="{6695BFA3-D93E-4033-B355-17FB0270915D}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="hits" ID="{5BE8A71A-232E-4616-986C-B3DA940AD91E}">
+					<ObjectInclusionList>
+						<ObjectRef Name="hits_hits_tank_npc_apcr_apcr_armor_not_pierce_large" ID="{7DE6C36E-0651-400E-A16E-FC48BDC2F8E6}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_huge_hit_metal_fougasse_huge" ID="{71DA3E56-1DA0-4030-A6EA-122A80CDD18F}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_hc_hc_armor_not_pierce_medium" ID="{F4E42BC3-1F77-4047-B427-21953E666788}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_hc_hc_armor_pierce_medium" ID="{75C80DFC-C982-405B-9319-C0077B99707C}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_ap_ap_ricochet_small" ID="{85D0689B-C8E1-4060-B2FB-CE8B5D90EDEF}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_he_he_critical_hit_huge" ID="{CDBCE038-EF73-406E-9991-DFB50E453B5D}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_ap_ap_ricochet_huge" ID="{9600DD7B-E200-4076-A1F5-C2B7FC669780}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_he_he_armor_pierce_small" ID="{BF85AD7C-C09A-408F-B2BA-192269B2C8B6}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_small_hit_metal_small" ID="{0569E445-0599-40A0-94A8-A26FF1F5DF68}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_medium_hit_ground_fougasse_medium" ID="{1EB1609F-E686-40C5-B0BF-929B909F9563}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_ap_ap_critical_hit_huge" ID="{FECBC874-9DE7-40C6-8204-F22502D4727E}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_large_hit_sand_large" ID="{6695D9CC-EA98-40EF-8A68-99229EA88414}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_hc_hc_critical_hit_medium" ID="{985D812D-E9FD-4114-988E-B584B9E1A142}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_ap_ap_armor_not_pierce_huge" ID="{F9533429-0DCD-4117-A846-51AEAA36E300}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_small_hit_sand_small" ID="{1407B949-893A-4122-87FC-502FD4E4E9ED}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_he_he_armor_pierce_medium" ID="{D7C0BC6D-940D-412D-A246-F38D1B2CF781}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_main_hit_ground_fougasse_main" ID="{6C0AC1B4-E612-412E-83A8-B95C6EFC40CA}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_ap_ap_critical_hit_small" ID="{A454E999-63D7-413B-BFA2-ED440F4FB208}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_he_he_armor_pierce_small" ID="{B5EFF61D-E987-416D-924C-838FDCF01230}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_ap_ap_armor_not_pierce_small" ID="{3F4E14BC-E146-417D-94EF-960895F83A17}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_huge_hit_ground_huge" ID="{82E4EA84-53DD-4199-A375-860B9B89D826}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_huge_hit_ground_fougasse_huge" ID="{69D438FD-4B1E-41AF-ABE1-439EA2E54295}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_ap_ap_armor_pierce_huge" ID="{19E0AEFE-499D-41B6-B5D2-850471297A18}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_small_hit_stone_small" ID="{EE2E2BAE-5730-41C4-9771-0C1728901859}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_hc_hc_armor_pierce_huge" ID="{C331435C-1252-41C5-BA08-C0C871728689}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_he_he_critical_hit_medium" ID="{2CE7E44D-2754-41F3-A06A-E344B3CC5A8C}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_apcr_apcr_armor_not_pierce_main" ID="{98AA2CBF-1BF3-4213-AED8-AC70496BD260}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_hc_hc_armor_pierce_main" ID="{5764532E-7A08-421A-9322-9E526D93F282}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_hc_hc_armor_not_pierce_small" ID="{8DAA1F19-50D6-4231-810C-4E4A0C70EAD0}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_ap_ap_ricochet_large" ID="{3A4703A0-B91E-4250-B319-2EBAF454A250}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_apcr_apcr_armor_not_pierce_small" ID="{C54C5323-395A-4269-942B-A8224233B159}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_hc_hc_critical_hit_huge" ID="{2BFAAFE9-175F-4276-AADD-555B25D80852}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_hc_hc_critical_hit_tow" ID="{9710F089-906C-427C-89B6-5C38848302BE}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_medium_hit_metal_fougasse_medium" ID="{17067915-CDC4-428A-8A36-1534521EBA7F}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_huge_hit_stone_fougasse_huge" ID="{380B5FD9-7774-428D-BDBD-FC07BDBBF909}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_ap_ap_armor_pierce_huge" ID="{1556F372-7606-4295-B35E-D968DA1A08A5}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_he_he_critical_hit_small" ID="{8E4F17AE-EC47-42AB-9747-0C122714A226}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_large_hit_wood_large" ID="{E863BFA2-68BA-42B1-A9CA-12276222B6AC}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_hc_hc_armor_pierce_large" ID="{0ED245C6-92A8-42CB-8DE6-F08EF7D8CC4A}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_small_hit_water_small" ID="{FDBD6D9C-5091-42EF-996A-6B866139DAAD}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_small_hit_water_fougasse_small" ID="{E74BC9BD-C1CA-42F0-A693-19B9C85450BF}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_hc_hc_armor_not_pierce_large" ID="{419A0C6D-C924-4319-8B68-ACAA48B377DE}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_huge_hit_metal_huge" ID="{E16745E4-C821-4321-A7AA-FF10080C82BB}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_huge_hit_sand_fougasse_huge" ID="{7548CF33-B07C-4348-8E28-D64EAC65098E}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_hc_hc_armor_pierce_tow" ID="{4FFE6DFB-DFE4-434F-A185-09917FE26EFF}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_hc_hc_critical_hit_small" ID="{D9751878-AEE4-4378-BB5B-6805A2481B61}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_medium_hit_sand_fougasse_medium" ID="{20FF4BDF-84C5-4386-9048-5FF5B395720C}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_small_hit_ground_fougasse_small" ID="{6B07AFB2-8119-43AC-945A-31F49BEF3C6D}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_he_he_armor_pierce_medium" ID="{1375C1F3-7FC1-43D5-911C-90F60CE32575}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_he_he_armor_not_pierce_medium" ID="{21F42085-EC2D-43DE-9A46-29766D94764B}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_apcr_apcr_ricochet_small" ID="{89968AC9-6945-43F1-B2D0-684806DCF53A}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_ap_ap_armor_pierce_small" ID="{4D1F1260-9B40-440B-8FEC-8F48FC265914}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_he_he_armor_not_pierce_main" ID="{0F0966F1-3AC9-4432-A2B9-763FF3FB1335}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_hc_hc_armor_pierce_small" ID="{94CADD63-1B25-4437-9794-0E0B2385A4F6}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_large_hit_metal_large" ID="{5457449B-4F00-4468-82D9-ED012513829B}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_small_hit_snow_small" ID="{8AB6285F-05E3-449A-A6FA-5E72700698F3}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_apcr_apcr_ricochet_medium" ID="{9950BDDA-6447-44AC-ABB5-7E87AB1EF312}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_medium_hit_stone_fougasse_medium" ID="{0AFD3343-5E35-44B0-8689-6D8985A4C407}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_apcr_apcr_ricochet_large" ID="{A6BAA385-CB38-44B3-BD2F-90DEE63C167B}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_ap_ap_ricochet_huge" ID="{2B6745B9-D57C-44E5-9162-CC57AFBFB0A4}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_apcr_apcr_armor_not_pierce_huge" ID="{F23299C5-9D1D-44EE-9E09-96FB3CA730CA}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_medium_hit_water_fougasse_medium" ID="{FB642A36-3EE4-4516-9353-7D74F3E1A5DE}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_apcr_apcr_ricochet_medium" ID="{2282C90E-2D17-451F-987B-890182014D1B}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_he_he_armor_not_pierce_huge" ID="{13FC3D90-623B-4555-B8F0-3F153EF0341B}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_hc_hc_armor_not_pierce_huge" ID="{B3790213-8607-4593-9D91-ECFBBF87B6F3}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_huge_hit_sand_huge" ID="{1A143719-090D-45A9-9F09-386BFDBAB614}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_large_hit_snow_large" ID="{2944F892-6B00-45BC-BB8E-1065A86D9477}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_apcr_apcr_ricochet_large" ID="{F83FE383-65CF-45CA-8DE3-92992649E6C1}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_small_hit_ground_small" ID="{7700B490-7362-45FA-98EA-A451AC487352}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_he_he_armor_pierce_main" ID="{540B2D9D-1B5F-45FC-83BE-EFF318A658A8}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_he_he_critical_hit_huge" ID="{721AB4D3-6D59-4620-81A2-27F41EA375C4}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_hc_hc_critical_hit_huge" ID="{40C63D07-894E-4635-88E8-779A2D77F377}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_hc_hc_armor_not_pierce_small" ID="{F517B521-6C93-464B-8C4E-743F87949F1D}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_he_he_critical_hit_medium" ID="{8A1AFA24-B84A-465D-9672-707ED81A107C}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_hc_hc_armor_not_pierce_main" ID="{DE93F58E-C880-4671-AE03-76570CA680E2}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_small_hit_wood_fougasse_small" ID="{E3A78BB1-AAA2-4679-B87E-48E1D53A6734}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_huge_hit_wood_fougasse_huge" ID="{3C96E19D-89CD-467F-8CFC-F8DEE7A95BB2}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_apcr_apcr_armor_not_pierce_medium" ID="{076A836B-87DA-4688-B9AA-736612DCF840}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_apcr_apcr_armor_not_pierce_huge" ID="{69071E17-057E-468A-95D8-8A55EB2D9104}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_apcr_apcr_ricochet_main" ID="{6700FF4E-764D-468E-AF92-705FF07D2C68}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_ap_ap_critical_hit_huge" ID="{B561C16C-9B71-4764-99D3-02307E7D6CB8}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_hc_hc_armor_pierce_huge" ID="{72D2B564-6BB7-4793-B331-933C72C0DCBB}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_he_he_armor_pierce_huge" ID="{6CB2EA23-7477-47D6-9B77-26C6E875E1BC}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_he_he_armor_pierce_huge" ID="{29BD3D5C-8E44-47F0-8BA0-6D8CFD67DB70}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_main_hit_wood_fougasse_main" ID="{6DAF7CB8-7D25-4841-A5F9-0F059E7B2B02}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_huge_hit_stone_huge" ID="{EEB52730-053F-4850-A132-39915539EE7D}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_apcr_apcr_armor_not_pierce_large" ID="{CB414BE8-E105-4857-B021-BA9051AA65A7}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_main_hit_sand_fougasse_main" ID="{A333E742-3380-487D-8CC2-56EBEAD754B5}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_ap_ap_ricochet_large" ID="{61E57E2B-8EA2-488A-AA24-F66D9E2D9F39}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_apcr_apcr_ricochet_huge" ID="{9218E9A0-DE3E-488C-9E6A-4E2A024DB112}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_small_hit_stone_fougasse_small" ID="{F8C4E967-5C2A-488E-AF31-21C264AE0EF5}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_apcr_apcr_ricochet_huge" ID="{906124C3-B5FE-48E6-B97C-03D8E3484D41}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_large_hit_stone_large" ID="{EC38F6FA-F384-48E9-9A1E-52630A42F6B2}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_hc_hc_armor_pierce_small" ID="{258DC018-8C1D-48F7-809D-D330C4B26F8E}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_main_hit_stone_fougasse_main" ID="{6CC470EE-7BB0-493A-88AA-0E4160D89ED1}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_ap_ap_ricochet_small" ID="{5AF058D2-3CE8-4958-8242-189BBAE97807}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_hc_hc_critical_hit_main" ID="{45421EC1-27D1-497D-AA7B-7445C23824FA}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_hc_hc_armor_not_pierce_main" ID="{1B0D79A9-9DBD-4988-A52E-9963A8C794D8}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_ap_ap_armor_not_pierce_small" ID="{0317FEFB-4525-498D-A1A6-C40A574ED24E}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_main_hit_water_fougasse_main" ID="{636B25E7-4768-49B8-99DA-82CE140C0EE7}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_hc_hc_armor_not_pierce_medium" ID="{E2DC075E-3ACA-49EC-8F56-AC05D83898B8}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_ap_ap_critical_hit_large" ID="{94E08AA8-009B-49F0-83D0-C9DC8A9C4267}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_hc_hc_critical_hit_large" ID="{ACA6E5FD-9AC6-4A5B-A8BB-D5C989D7506C}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_ap_ap_armor_pierce_large" ID="{D07C8670-F517-4A78-9F95-84A93FF5730A}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_small_hit_snow_fougasse_small" ID="{FA6344F5-0EDB-4A92-B626-0B40BBC015F6}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_large_hit_water_large" ID="{DE66E697-FCA0-4AA3-A47F-D309A4410505}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_huge_hit_snow_fougasse_huge" ID="{911E7C00-4E94-4AA4-B8C7-3ED89034991E}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_hc_hc_armor_pierce_main" ID="{7F4876CF-3114-4AAA-9704-FE1E0F0D61BB}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_he_he_armor_not_pierce_small" ID="{061AC558-0888-4AFC-AD8F-2938F2734279}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_huge_hit_water_fougasse_huge" ID="{B01C06B2-10D1-4B0B-881D-D88805F662B1}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_hc_hc_armor_pierce_large" ID="{9FF745B4-549A-4B6D-B827-8BD1EA160627}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_huge_hit_wood_huge" ID="{A939840E-2E10-4B85-AF20-6AC39BE2ED79}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_hc_hc_critical_hit_large" ID="{D03DF9F6-67E3-4B8A-8538-7B012CA67E14}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_ap_ap_armor_pierce_large" ID="{76F05659-AFFD-4B9F-A36F-5A8456282541}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_main_hit_snow_fougasse_main" ID="{0912C2E1-C412-4BA6-B5BC-4F97F32DC6BC}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_apcr_apcr_armor_not_pierce_main" ID="{18A14FEB-5B56-4BB1-B298-42084954916C}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_ap_ap_armor_not_pierce_large" ID="{0A9A6749-8832-4BE3-81F2-3570DAC4CA6C}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_hc_hc_critical_hit_main" ID="{3B05C63A-DD11-4C19-9371-D10ADDACC5BA}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_he_he_critical_hit_small" ID="{9976FA81-36F6-4C43-9171-DE1E6CF4ABCB}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_he_he_armor_not_pierce_medium" ID="{1FF7B666-3100-4C44-B2D1-7587CB984FAD}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_ap_ap_critical_hit_small" ID="{B7B5C205-E186-4C77-8E37-D191240869BD}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_ap_ap_armor_pierce_small" ID="{1E7EAAAE-B867-4C99-9B29-5D7E3C5A078F}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_main_hit_metal_fougasse_main" ID="{7423AFEE-7D10-4CCE-A529-49CB7125F58E}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_ap_ap_armor_not_pierce_huge" ID="{F44CF0B2-42B4-4CE6-90E0-4B56E9083B81}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_hc_hc_armor_pierce_medium" ID="{F6B963D5-EBD9-4D27-9572-F7ABCE206D13}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_small_hit_metal_fougasse_small" ID="{21649735-6E20-4D4F-B952-CDEB837C9C5F}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_hc_hc_critical_hit_medium" ID="{89B94115-4BC8-4D6B-B9C4-C48133642635}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_apcr_apcr_ricochet_main" ID="{F0C59236-02FE-4D8E-A959-7AD6A40973A2}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_he_he_critical_hit_main" ID="{9C0BD050-AE8D-4DC6-9BB3-35D3F475B8D1}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_hc_hc_critical_hit_small" ID="{ADF791B4-DCD4-4DC7-BDAC-D6C88A11F693}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_apcr_apcr_ricochet_small" ID="{A0368AA8-AB72-4DD5-AD39-63E42AF47192}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_hc_hc_armor_not_pierce_large" ID="{9518F040-CCCE-4DDE-896D-39587C721AB7}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_he_he_critical_hit_main" ID="{7E691B52-CBAA-4DF9-8B90-ED9109C2E740}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_huge_hit_water_huge" ID="{0FDD91E1-55E8-4E04-B4D3-326E815B6D71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_large_hit_ground_large" ID="{92670ECD-4DBB-4E4A-8532-C8DAFAA5E76A}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_medium_hit_snow_fougasse_medium" ID="{DD8B6FF6-AAB5-4E6A-992D-5F6E6F00DDE1}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_small_hit_wood_small" ID="{2E1D4E40-7B9C-4EB8-ABD5-2DB8B5C0B13F}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_apcr_apcr_armor_not_pierce_small" ID="{47DC6714-3A7D-4EC1-94C0-96FA9A3A9052}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_medium_hit_wood_fougasse_medium" ID="{C92477DB-7E0A-4F03-A71D-056C68B35F60}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_he_he_armor_not_pierce_small" ID="{FC5C4A26-0136-4F28-8FD8-2542A450FF47}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_hc_hc_armor_not_pierce_huge" ID="{003BB6ED-2CBB-4F62-A22A-4ABDA0DE2AC0}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_apcr_apcr_armor_not_pierce_medium" ID="{E5DE5FD6-2BBE-4F79-844F-6BD0444EFD59}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_he_he_armor_not_pierce_huge" ID="{F277A7FB-C97A-4F79-81F4-E5D2FA8B1EB1}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_huge_hit_snow_huge" ID="{70A1A49B-379A-4F97-BF0E-A305658CB8F7}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_he_he_armor_pierce_main" ID="{98ED2A1B-E95E-4FC2-B2B2-A6375AAFCCF4}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_small_hit_sand_fougasse_small" ID="{803B382C-4233-4FDC-AC6E-0A3E09F3A3AD}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_ap_ap_armor_not_pierce_large" ID="{822FB538-A153-4FDC-B770-6852F53D9962}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_ap_ap_critical_hit_large" ID="{AFB01F3C-27D1-4FE5-9223-F09F92ED30B4}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_he_he_armor_not_pierce_main" ID="{D9B43987-6A4E-4FE6-BDBF-65A995D0FB45}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="hits_basic" ID="{AD9346B1-70CC-4DC3-80C8-1A3F22154694}">
+					<ObjectInclusionList>
+						<ObjectRef Name="hits_hits_tank_npc_ap_ap_critical_hit_medium" ID="{E8D3EE61-8D95-4065-8F74-68A88F7AAFBF}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_main_hit_sand_main" ID="{DD62F724-0F1B-4093-BE87-FF98371497FD}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_ap_ap_armor_pierce_medium" ID="{B5B3008D-A3E5-4169-A4BB-26C3D2964A8E}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_ap_ap_armor_not_pierce_medium" ID="{3BB29632-EE14-41AF-AFC9-50D271AEF309}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_large_hit_snow_fougasse_large" ID="{42C9345F-1B66-41D5-8721-5BAA77248ACA}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_main_hit_ground_main" ID="{C1CC441E-1603-422F-AF27-849DE635CD7C}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_he_he_armor_not_pierce_large" ID="{8F6B876F-89DF-4239-A532-0412DAD972D6}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_medium_hit_wood_medium" ID="{CB2C734F-7620-434D-BB5A-F0FD26BD8AE2}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_medium_hit_snow_medium" ID="{64236D71-6542-4370-9607-AB0876918DCF}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_main_hit_wood_main" ID="{C3F489F7-B50C-4392-A55F-05D7B4EFE19E}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_ap_ap_ricochet_medium" ID="{2EECD886-4307-43B5-98D8-6302E6BAAE60}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_medium_hit_stone_medium" ID="{0ED76C76-3BCC-43C2-B75F-1AC08B86567B}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_ap_ap_armor_not_pierce_main" ID="{FCCA61C8-9A81-43D3-978F-EA72D7D3C630}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_large_hit_water_fougasse_large" ID="{6DBAEF75-6E09-4430-B0C7-9DF91B1B9EC4}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_medium_hit_metal_medium" ID="{35F2AD09-EDFF-44D9-9490-1B0525ACC57C}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_main_hit_stone_main" ID="{5E98B707-F31D-4512-A2DC-73A54ECE7176}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_large_hit_wood_fougasse_large" ID="{8CEADD1D-478A-453B-9CD0-51A6BB26E492}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_ap_ap_armor_pierce_main" ID="{4DD51BC2-B45C-4562-BA65-0F35AD0F8A35}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_ap_ap_armor_not_pierce_main" ID="{197399F4-584A-45F1-98EC-D104DA2C8D1A}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_medium_hit_ground_medium" ID="{9A025F0C-D8CE-46B6-9918-BE90BFA3B5D1}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_main_hit_snow_main" ID="{92A2A539-1798-487B-AB05-CC31CD02C697}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_large_hit_ground_fougasse_large" ID="{81004C0D-7340-49F2-8C94-DAFBD179C95F}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_ap_ap_critical_hit_medium" ID="{30126E44-15A0-4A5C-B0C3-0DA88F890443}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_ap_ap_ricochet_main" ID="{8C02A1C5-D41F-4AA2-9DAF-982309B666A8}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_medium_hit_water_medium" ID="{A51DEF94-4507-4AE9-9D40-9705EC69493B}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_ap_ap_armor_pierce_main" ID="{9F7E07BB-97A1-4B12-8F10-458699584466}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_large_hit_sand_fougasse_large" ID="{71CFCDD4-E082-4B28-92D0-E85FB09A8F3A}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_he_he_critical_hit_large" ID="{4DD5DBD5-D83D-4B66-B239-6CD607429336}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_ap_ap_critical_hit_main" ID="{CAD5A912-26E2-4B6B-9D0D-4B708CEB2B8C}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_ap_ap_armor_not_pierce_medium" ID="{5B099525-8BDB-4BB7-AD93-0744E9D6A83B}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_large_hit_metal_fougasse_large" ID="{6F8FA882-F01E-4BF8-9A99-11D77022BEC2}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_ap_ap_ricochet_main" ID="{ED9C17CC-3536-4C71-B975-5182CEED01A4}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_ap_ap_ricochet_medium" ID="{82611C79-820B-4CAA-B299-6FD7864E549B}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_large_hit_stone_fougasse_large" ID="{E46E3B70-A4E9-4CD3-9553-CACBD7EF8DCC}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_he_he_armor_not_pierce_large" ID="{FDBB2DCE-3310-4D58-B144-C096970EE00E}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_he_he_critical_hit_large" ID="{4C63FBC1-5B2C-4D71-A885-7A51B702ADC5}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_he_he_armor_pierce_large" ID="{EBFDE5A1-C91B-4D72-A5B7-8779CB963049}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_npc_ap_ap_critical_hit_main" ID="{AB3C4F92-31C0-4D8D-916D-1A3217CDFA4D}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_ap_ap_armor_pierce_medium" ID="{541733E3-4A9A-4E4A-90BD-9DC963376CE6}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_main_hit_water_main" ID="{0DF45D8C-FA00-4EC9-AA88-8B064B52B5AC}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_medium_hit_sand_medium" ID="{3CB8B7A6-A6F9-4ED0-8296-A03E90FB479E}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_surface_hits_main_hit_metal_main" ID="{2E05B946-441F-4F5D-A5E4-5826E2DF7A2A}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hits_hits_tank_pc_he_he_armor_pierce_large" ID="{8242E943-1DF7-4FC3-9741-4C65FDD111FF}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="music_battle" ID="{DF4E62A9-3169-4673-A780-8711CF8E5D78}">
+					<ObjectInclusionList>
+						<ObjectRef Name="GUI_notifications_FX_victory_PC" ID="{7777BA04-6A92-4948-99C3-CB59D56CDC21}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_notifications_FX_victory_NPC" ID="{5816A0D2-5DCD-4D45-99D3-2F718E62C3A4}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="music_maps_america_lakville" ID="{C8D98B7B-FAFB-455E-9F99-75A4CF3898AD}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Music_America_Lakville" ID="{4E7486D7-0C3E-4687-8407-8BABC684C734}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="music_maps_america_overlord" ID="{28D78A58-3072-407B-9DDC-DC97646AE15E}">
+					<ObjectInclusionList>
+						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music_America_Overlord" ID="{E99D870C-D367-4C4C-9AF7-B326A5D81681}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="music_maps_chinese" ID="{DDDB361D-06B9-47A0-B763-55457B07D615}">
+					<ObjectInclusionList>
+						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music_Chinese" ID="{D2B671E2-BEA1-4F78-90E0-74E47C1D0A37}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="music_maps_desert_airfield" ID="{2539C9AC-7A97-4B29-8E51-1DF1212F82D2}">
+					<ObjectInclusionList>
+						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music_Desert_Airfield" ID="{D3AFBE2F-FEAD-4BCB-A784-22A12DE0D4BC}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="music_maps_desert_sand_river" ID="{D5E8ACD8-CF61-4965-B9C3-E01E23F48F86}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Music_Desert_Sand_River" ID="{5DF855B4-7B09-406B-B8B1-00D46BF26F06}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="music_maps_europe_himmelsdorf" ID="{983B184A-B2F7-44FE-A6E5-595D94EAA219}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Music_Europe_Himmelsdorf" ID="{7D6A5681-7264-46D5-B669-D9FF3B6B4B0C}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="music_maps_europe_mannerheim" ID="{22753AA4-72C4-4E2E-82B3-3DE0B849C850}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Music_Europe_Mannerheim" ID="{527526D7-A7C8-4187-A101-D60C6C60F09D}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="music_maps_europe_ruinberg" ID="{0FC8753D-0974-4F5D-B0B5-FA515B32330E}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Music_Europe_Ruinberg" ID="{E35B546B-A02C-4358-9C8F-D2417D434858}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="music_maps_japan" ID="{F2AB2421-3593-4CC8-8C83-0329E53D7925}">
+					<ObjectInclusionList>
+						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music_Japan" ID="{2DDD5C72-E5E9-4973-90B9-2F5E5280D32C}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="music_maps_russian_malinovka" ID="{CDAFAE67-5888-4AB7-9A61-515ACE9EDEA8}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Music_Russian_Malinovka" ID="{76E955DF-442F-42BA-8351-1FB59870C493}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="music_maps_russian_prokhorovka" ID="{1EEA55D5-2C4C-414A-9677-6BAD5AC2649A}">
+					<ObjectInclusionList>
+						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music_Russian_Prokhorovka" ID="{2F953F7B-7CB3-4D89-AFF2-56DA156FD8DE}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="ui_battle" ID="{C6A3FE2E-D7C5-4D2D-B2A4-EBF2F9492BFE}">
+					<ObjectInclusionList>
+						<ObjectRef Name="GUI_notifications_FX_furious_start" ID="{101E5C6C-7034-411E-9950-F7E147F005A6}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_notifications_FX_auto_target_on" ID="{71D9D962-7F84-4164-A648-C96F0F7D8163}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_notifications_FX_auto_target_off" ID="{AACA50E9-0C09-42B5-8036-F6F53CDEF7A0}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_notifications_FX_medikit" ID="{2B637AF9-D8B1-43B0-8B7E-F096A21EC0E1}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_notifications_FX_adrenalin_off" ID="{8453C072-9BD7-449C-A56A-A62B3C71756F}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_notifications_FX_furious_off" ID="{88F5E31C-B879-4566-A430-3FFB41D2A39C}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_notifications_FX_adrenalin_start" ID="{A61C5F46-A3B8-465E-8323-6D31017478FC}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_notifications_FX_repair" ID="{2E21F468-3789-4725-A7BE-C70C987EFFBF}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_notifications_FX_perk_shooter" ID="{F79FA97A-28E6-4767-8755-3BF84311CA49}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_notifications_FX_shells_choose" ID="{220A7219-25E8-4859-9F9C-58F6F12F03AB}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_notifications_FX_fire_extinguisher" ID="{95B1CAB9-D7B1-4868-9802-049EB294780C}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_notifications_FX_restorer" ID="{FF2CA108-887A-487D-9E72-86F36CD173AF}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_notifications_FX_quick_commands_close" ID="{4B03163C-E881-48DE-9E88-CC4D0DF224F0}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_notifications_FX_stripe" ID="{E34F36D1-7289-4BA5-B670-6666E819B763}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_notifications_FX_shells_open" ID="{B83B3A10-F964-4BD4-89EA-36D0A64BE5E4}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_notifications_FX_perk_shooter_max" ID="{45C29DE8-47DF-4BEA-A551-7EF03E7A743D}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_ui_btl_minimap_tap" ID="{E7A22E8E-247E-4C3B-AABA-A7443F4A4A09}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_notifications_FX_shells_close" ID="{BDCFD8D5-9F7B-4EA3-A7E1-287F74AB0707}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_notifications_FX_quick_commands_open" ID="{3D1651E7-BE0F-4EF7-9A32-DCA9DFF65195}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="ui_buttons_tasks" ID="{ED45219C-624E-4506-84DB-8A933CF41D61}">
+					<ObjectInclusionList>
+						<ObjectRef Name="GUI_notifications_FX_task_complete" ID="{A0D6142F-EAE8-4045-AB43-C15B692412BA}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_ui_gift" ID="{D5055F09-2FC2-4065-95D4-D5A843E06270}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music_aftershot_bought_module" ID="{38CDFDE3-8ADD-4114-8E92-A1AEDACD8F16}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_buttons_filter_close" ID="{5646609E-4B69-4185-AC22-032823BEFAAF}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_buttons_bz_ok" ID="{BAB4B3F8-82EE-41E3-84AA-E8D7F5E72A07}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_buttons_filter_open" ID="{86972CDD-CBD3-430E-9ED3-831C855ADE09}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_buttons_play" ID="{D237F984-1DC8-43B4-8847-F390D7FB955A}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_ui_gift_open" ID="{DA995D25-19CD-4585-9D90-B8103DB05341}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_buttons_checkbox" ID="{0814E285-B211-45C1-92AB-7FB7D982AFF7}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_buttons_whoosh_prize" ID="{7A4E69EE-E7C6-4635-B73D-5B9579169FE1}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_buttons_box_not_prize" ID="{0EFDCBDD-54C1-4649-B223-BC38D415B0DD}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_buttons_module_install" ID="{C0248BBC-794D-464C-8E78-9605FEC0EA8E}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_buttons_drag" ID="{C7E44F0C-4B4A-490A-8931-FBEC5CFD8861}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_buttons_bz_out" ID="{72D393BC-64CF-4936-85A8-5DFC2E231ED3}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_buttons_error" ID="{608078DE-DBC1-4937-8C0D-F5DFD2A2E7B5}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_notifications_FX_task_new" ID="{3640ACE8-16D0-4938-AD1B-59F758025101}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_buttons_buy" ID="{664C8503-CA3F-4944-BF4F-EF0815C1C15D}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_buttons_bz_no" ID="{20E13F27-0EE3-499C-8EDC-2390E78DB984}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_buttons_box_prize" ID="{E290BB13-1B8A-499C-96D0-B3B7B6FF9433}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_buttons_premialization_on" ID="{CF6E496D-3829-49B7-9CC1-EB0FC602DE34}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_buttons_receive_squad_request" ID="{235D04F8-0971-4A0A-A48F-78A4375E6DA2}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_buttons_premialization_off" ID="{5EAA0A48-3964-4BB9-BCD2-E3686320722D}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_buttons_sell" ID="{0CF30D45-DFA9-4BFE-A2FC-66C379C3B70A}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_buttons_bz_reward" ID="{4946B65A-0727-4CEB-86BC-F734251CEC25}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_buttons_receive_news" ID="{3AEA8649-945C-4D6D-AE4E-B67D769C0105}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_buttons_hint" ID="{CFA13A3B-8092-4EB4-9E53-E997B0208AAC}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_buttons_carousel" ID="{86E0CB6D-10EE-4F25-8C43-4D7EAFE39A02}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_buttons_bz_new" ID="{7F0B7516-D44B-4F55-BF20-871DFE39CAC1}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_buttons_receive_message" ID="{9AE6C678-CA3F-4FC1-90E2-3449FFABFC50}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="ui_chat_quick_commands" ID="{E3FF4555-E989-445B-A5D5-6B53A722C9AB}">
+					<ObjectInclusionList>
+						<ObjectRef Name="GUI_notifications_FX_quick_commands_defend_base" ID="{DDE1AEFD-9D7D-4015-B261-CEEB8EBE42DC}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_notifications_FX_chat_chat_from_squad" ID="{347BA823-A412-41AE-B9CF-5F8DC31FBB75}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_notifications_FX_chat_chat_from_allies" ID="{19A4A493-E881-41E5-8F52-0D4480C36270}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_notifications_FX_quick_commands_attack_target" ID="{C73436E6-61FD-427B-BD39-90637018C26E}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_notifications_FX_chat_chat_from_all" ID="{DF712FC9-926F-45D9-8489-EBEA70651051}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_notifications_FX_quick_commands_positive" ID="{34C32FF4-422C-46AC-9167-86D2F3A7AE7B}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_notifications_FX_quick_commands_attack" ID="{1BADF035-1B5D-4737-B679-EB6B37CF7C60}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_notifications_FX_quick_commands_negative" ID="{A1CEDEFD-FC98-48B2-B145-CA1A3F403F96}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_notifications_FX_chat_chat_to_all" ID="{23D72AD1-9702-4A00-B074-F18AD6B22894}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_notifications_FX_chat_chat_to_allies" ID="{45C07698-06B2-4A2D-B2B5-FC464A29B0F0}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_notifications_FX_chat_chat_to_squad" ID="{F4DC43DE-B9DF-4BBE-93A1-FF8A84A50C67}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_notifications_FX_quick_commands_capture_base" ID="{6B44A7B9-0F5A-4E2D-969C-3DB1449A87F8}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_notifications_FX_quick_commands_help_me" ID="{5601454A-FC90-4EB4-8A65-4A937BACA2F2}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_notifications_FX_quick_commands_reloading" ID="{16D51965-3AC5-4ED1-B18C-C3994D2E4AC1}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="weapon" ID="{D68C2CFD-72B3-4E49-BCC6-08660719B1CD}">
+					<ObjectInclusionList>
+						<ObjectRef Name="play_wpn_auto_3p" ID="{752804CD-6A04-40D0-9683-1F0BA0BB51FC}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_wpn_small_1p" ID="{3F5378FE-1492-412E-ABF1-95BEC51D10FD}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_wpn_auto_1p" ID="{54D6FB43-3CED-4430-9A51-23441EA3A305}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_wpn_huge_1p" ID="{64AD9238-54A0-49ED-BB42-0D0827D74472}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_wpn_huge_extra_3p" ID="{42436933-D227-4B68-AE28-CB719E27B737}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_wpn_huge_3p" ID="{58197413-24C3-4CAF-BDC5-C127628D045E}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_wpn_huge_extra_1p" ID="{B24D9DE7-C073-4CF9-8E89-D997B61E497D}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_wpn_small_3p" ID="{750772CB-5B12-4F03-AF3D-DDA5C29CC390}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="weapon_basic" ID="{FD014BC2-CCB9-497C-BA7B-938DAA78A0B7}">
+					<ObjectInclusionList>
+						<ObjectRef Name="play_wpn_mid_3p" ID="{1793E0AA-6A62-41EA-801C-4CF11FB0E8B3}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="a1wdkt_9" ID="{6EE14E72-7952-430B-B4B9-AD887CC5B5AA}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_wpn_large_1p" ID="{2D335998-F4ED-43A5-BC92-9A6783AEFD93}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="guns_tracers_tracer_tow" ID="{D39B9838-9654-4429-BC5F-1D82C8D82AA7}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_wpn_main_1p" ID="{B18CFF85-78E2-45C0-B413-8FF64B7964F1}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="a0cs4zut" ID="{484935F5-B2A0-4A23-ACA2-AC6842AA1DF4}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="guns_tracers_tracer_light" ID="{C5B074DB-A0E6-4A5E-AE4D-345AAD797418}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="guns_tracers_tracer_medium" ID="{5865594D-9A92-4AAC-AD3C-2EBA4CAAF56F}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_wpn_main_3p" ID="{B8262139-C040-4BD7-AB50-970FEBAFB96C}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_wpn_mid_1p" ID="{5847B41B-1884-4CEC-8036-A720198BF528}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_wpn_large_3p" ID="{5045C630-6A5A-4D00-BB0C-E1F46C449E7D}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="guns_tracers_tracer_hard" ID="{2749B8C5-EBEE-4DC8-9ED7-31810D638C7B}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="ui_battle_basic" ID="{D43398FA-D00B-4281-A307-7A0ED37F4536}">
+					<ObjectInclusionList>
+						<ObjectRef Name="GUI_notifications_FX_capture_point_PC" ID="{6C135A96-FDFE-411A-8D16-3261B17F8491}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_notifications_FX_capture_point_NPC" ID="{7273DA96-232E-4227-843E-40DFDD2940AB}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_notifications_FX_snipermode_on" ID="{6DD43411-8B98-431B-B1BD-2E5048A4698B}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_notifications_FX_capture_point_NPC_end" ID="{F72F204C-10CC-43DA-AD34-652FF66E0C64}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_notifications_FX_capture_point_PC_end" ID="{867B37E8-821B-44E0-81A0-B12ED3D34873}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_notifications_FX_base_capture_ally" ID="{123CC051-F348-453F-B1CC-70995EDCF9E2}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_notifications_FX_timer" ID="{94BA0FDD-931D-470E-9C20-8C9F5C5892DB}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_notifications_FX_lamp" ID="{CF803F74-90E4-479E-AC05-1EEB84B6D80E}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_notifications_FX_base_capture_enemy" ID="{30FCA489-8D3E-4826-965D-1B8E3BDDADE3}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_notifications_FX_enemy_sighted_for_team" ID="{8399F4D7-3498-4AB6-9B5C-8144C5025F14}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_notifications_FX_zoom_out" ID="{466A9305-6937-4B8E-973D-9A9E9E8B0769}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_notifications_FX_sight_convergence" ID="{9314751D-B857-4C9D-801E-F833E2CFBE68}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_notifications_FX_snipermode_off" ID="{A06566B8-ACC8-4D68-857E-C82EF1E1D338}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_notifications_FX_zoom_in" ID="{BF83E74B-5300-4F1D-9F0D-4B4DF0C4F8E4}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GUI_notifications_FX_base_capture_finish" ID="{03029FC9-B625-4F34-9BDC-71DB1CCEC820}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="music_result_screen" ID="{FDAE3182-DBA4-44F7-A00F-FCAA95CDA61B}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Music_aftershot_draw" ID="{DB66291C-2DA9-42F8-BB74-0C4D1BCF94BD}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music_aftershot_defeat" ID="{849ECB6B-9068-46DA-B672-4988508BA4FF}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="music_result_screen_basic" ID="{A6FB547C-66A9-42AF-95B0-843A4C23C9E7}">
+					<ObjectInclusionList>
+						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music_aftershot_victory" ID="{273C8E85-410C-4D25-93C5-ABF776B91212}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="hangar_normal" ID="{2263468A-3D8B-4740-9621-C71E3105011A}">
+					<ObjectInclusionList>
+						<ObjectRef Name="hangar_ambient_hangar_blitz_v1_premium" ID="{4CC04C85-DE84-46BA-BC42-8AE9AB339341}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

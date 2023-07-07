@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0E46735D-F5DE-447C-9045-CC1B19C6B69C}" SchemaVersion="97">
+	<States>
+		<WorkUnit Name="RxD" ID="{0E46735D-F5DE-447C-9045-CC1B19C6B69C}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="STATE_music_volume_fadeout" ID="{127B34A6-A8E1-4C7C-A063-3446DE63E6C7}">
+					<ChildrenList>
+						<State Name="None" ID="{E948E8FB-ADD9-41FE-9E46-53FE96EF022E}"/>
+						<State Name="STATE_music_volume_on" ID="{8734855F-ED00-4D62-A452-3635D5BE236B}"/>
+						<State Name="STATE_music_volume_off" ID="{D4B723F1-59EF-4786-924C-9EE7BAF83EB9}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="STATE_music_volume_on" ID="{8734855F-ED00-4D62-A452-3635D5BE236B}"/>
+							<EndState Name="STATE_music_volume_off" ID="{D4B723F1-59EF-4786-924C-9EE7BAF83EB9}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="STATE_music_volume_off" ID="{D4B723F1-59EF-4786-924C-9EE7BAF83EB9}"/>
+							<EndState Name="STATE_music_volume_on" ID="{8734855F-ED00-4D62-A452-3635D5BE236B}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+				<StateGroup Name="STATE_view_play_mode" ID="{785EAC4B-424B-478E-8C5D-7A46943724F3}">
+					<ChildrenList>
+						<State Name="None" ID="{7F478DC2-CE37-455D-9179-33DE58E4D589}"/>
+						<State Name="STATE_view_play_mode_arcade" ID="{3B675AE3-6C55-41D2-91C9-44EA3BE45547}"/>
+						<State Name="STATE_view_play_mode_sniper" ID="{CCC390A0-A548-4D37-B3E6-6B1BA6D68FA8}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="STATE_view_play_mode_arcade" ID="{3B675AE3-6C55-41D2-91C9-44EA3BE45547}"/>
+							<EndState Name="STATE_view_play_mode_sniper" ID="{CCC390A0-A548-4D37-B3E6-6B1BA6D68FA8}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="STATE_view_play_mode_sniper" ID="{CCC390A0-A548-4D37-B3E6-6B1BA6D68FA8}"/>
+							<EndState Name="STATE_view_play_mode_arcade" ID="{3B675AE3-6C55-41D2-91C9-44EA3BE45547}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+				<StateGroup Name="STATE_master_volume" ID="{D59ED3C4-12D3-44DD-AB94-9CB71BF5B084}">
+					<ChildrenList>
+						<State Name="None" ID="{A747EC5A-C6F5-430A-AC76-3EA122E91A67}"/>
+						<State Name="STATE_master_volume_mute" ID="{725360FC-0589-4E8E-A8DC-DF8204D39730}"/>
+						<State Name="STATE_master_volume_unmute" ID="{9774FD10-8469-41E5-9D77-F4D78C10E7F6}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="STATE_master_volume_mute" ID="{725360FC-0589-4E8E-A8DC-DF8204D39730}"/>
+							<EndState Name="STATE_master_volume_unmute" ID="{9774FD10-8469-41E5-9D77-F4D78C10E7F6}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="STATE_master_volume_unmute" ID="{9774FD10-8469-41E5-9D77-F4D78C10E7F6}"/>
+							<EndState Name="STATE_master_volume_mute" ID="{725360FC-0589-4E8E-A8DC-DF8204D39730}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>
