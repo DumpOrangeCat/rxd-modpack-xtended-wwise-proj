@@ -4140,6 +4140,33 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{F71A80CB-CE53-491A-992D-EC9DBDF17029}" ShortID="834468103">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="643283407" ID="{9552A2BB-CE55-49E8-B3B2-94B349FA17B3}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FAEDD648-A078-4687-80BC-BD29B9CB015A}" ShortID="604997414">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.35"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="643283407" ID="{9552A2BB-CE55-49E8-B3B2-94B349FA17B3}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{920659AF-A667-45F9-BA76-EB99E86794C1}" ShortID="827435999">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.35"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="643283407" ID="{9552A2BB-CE55-49E8-B3B2-94B349FA17B3}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="GUI_notifications_FX_repair" ID="{2E21F468-3789-4725-A7BE-C70C987EFFBF}">
@@ -5554,6 +5581,160 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="music" ID="{5831309A-5D1E-4F83-B631-5026E176DA0F}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Malinovka" ID="{1D4C25C2-C63E-402E-BF1B-40D1B07519F2}">
+					<ChildrenList>
+						<Action Name="" ID="{03C1D173-35F0-4B78-B9F0-7E11FD397078}" ShortID="98405744">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="120"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="malinovka" ID="{926A2B9C-C01F-4BFC-B6F4-92ACF1B16F3B}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Ruinberg" ID="{0F6C1D5F-EE0A-488B-8F5C-DD5FEF14A580}">
+					<ChildrenList>
+						<Action Name="" ID="{7E323ADD-2E11-4990-A42F-A25C1D8A9ADD}" ShortID="294392973">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="120"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ruinberg" ID="{31B9523F-F58D-4C10-9DEE-BF704839243B}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Himmelsdorf" ID="{34286952-BACF-466D-9A3A-4BB5B8530C46}">
+					<ChildrenList>
+						<Action Name="" ID="{A8BC831A-4080-424B-8510-B5A5317C82B0}" ShortID="940153534">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="120"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="himmelsdorf" ID="{AB8C85E0-0A74-4A8C-BA45-56CD00E58DDB}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Prokhorovka" ID="{1D299CB5-9AD8-448A-B8EF-394961A94D91}">
+					<ChildrenList>
+						<Action Name="" ID="{B2BF278D-F150-4164-A575-B6E9D2AADD8D}" ShortID="146163718">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="120"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="prokhorovka" ID="{98A3A182-63AD-4857-812C-3ED9F93F5D79}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Japan" ID="{AC7C7CA5-45F7-4E25-BB44-BCE145FB40E2}">
+					<ChildrenList>
+						<Action Name="" ID="{0F6F0B0E-802C-495C-AA92-4E0FAEE81755}" ShortID="334478464">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="120"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="japan" ID="{EB4EDE75-DDE8-4650-9F46-935E3E4834AD}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Sand_River" ID="{BD0E81E5-1DEA-44ED-8A25-D43C22844E14}">
+					<ChildrenList>
+						<Action Name="" ID="{59FC2E9B-9627-4DDA-89EC-2A894EC4B566}" ShortID="549148183">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="120"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sandriver" ID="{8454548F-14C1-420C-9CB1-656C71D6056B}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Chinese" ID="{5987E80C-0CC9-4908-9D28-C990B88E530F}">
+					<ChildrenList>
+						<Action Name="" ID="{7FF69ACB-3473-40B9-ACCA-80A398FF569D}" ShortID="739207487">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="120"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="chinese" ID="{A4F5B0FF-4DF1-4D37-851C-1D611AE763CD}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Overlord" ID="{2D28A9DB-E8B2-4170-ACDC-A0EE3D25A957}">
+					<ChildrenList>
+						<Action Name="" ID="{2EB8D3A3-2F20-49EB-A61E-5FBF35DC0A08}" ShortID="310465432">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="120"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="overlord" ID="{5CD39DFC-E8E3-4009-8B86-EA90DE02AE78}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Lakville" ID="{8417C6A4-B9AE-465D-AC75-ED1FCD08059D}">
+					<ChildrenList>
+						<Action Name="" ID="{4C874E7A-7439-4F57-B770-5025588D71E9}" ShortID="235737853">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="120"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="lakville" ID="{430D917B-6BB8-491D-8C53-5F30C735DC06}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Mannerheilm" ID="{B81AF4ED-FC1D-42ED-A00C-44D3FAFCC148}">
+					<ChildrenList>
+						<Action Name="" ID="{B2371AFD-FBC1-435A-BAD6-31469E9F1179}" ShortID="1023141172">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="120"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="mannerheilm" ID="{1A33F656-9C12-4EEB-8932-871DE89F7FEA}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Airfield" ID="{CFD2E0B7-0891-452D-BBB1-7BCC0EAC8304}">
+					<ChildrenList>
+						<Action Name="" ID="{5B031F52-3851-4838-9496-6342DB6A8237}" ShortID="498619015">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="120"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="airfield" ID="{1CEB7564-D9DD-41E0-A907-1C47F14AFBF2}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

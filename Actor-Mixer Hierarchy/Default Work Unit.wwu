@@ -10873,6 +10873,11 @@
 					<PropertyList>
 						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 						<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+						<Property Name="MakeUpGain" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
 						<Property Name="MaxSoundPerInstance" Type="int16">
 							<ValueList>
 								<Value>1</Value>
@@ -11307,16 +11312,15 @@
 						<CustomStateList>
 							<CustomState>
 								<StateRef Name="STATE_music_volume_off" ID="{D4B723F1-59EF-4786-924C-9EE7BAF83EB9}"/>
-								<CustomState Name="" ID="{31C5AB78-CF00-4069-82DE-8D99DFFBD53E}" ShortID="916953743">
+								<CustomState Name="" ID="{F3C5E863-0CA1-46E3-965C-6B2F7D577E63}" ShortID="96219642">
 									<PropertyList>
-										<Property Name="Lowpass" Type="int16" Value="75"/>
-										<Property Name="Volume" Type="Real64" Value="-108"/>
+										<Property Name="Volume" Type="Real64" Value="-5"/>
 									</PropertyList>
 								</CustomState>
 							</CustomState>
 							<CustomState>
 								<StateRef Name="STATE_music_volume_on" ID="{8734855F-ED00-4D62-A452-3635D5BE236B}"/>
-								<CustomState Name="" ID="{A3668157-28FF-4FEA-B7D0-37C83D19F93D}" ShortID="63287275"/>
+								<CustomState Name="" ID="{A661677A-2D25-4E5F-8991-3B93DACD17FF}" ShortID="1028597813"/>
 							</CustomState>
 						</CustomStateList>
 					</StateInfo>
@@ -31845,7 +31849,7 @@
 																<SegmentShape>Exp2</SegmentShape>
 															</Point>
 															<Point>
-																<XPos>200</XPos>
+																<XPos>100</XPos>
 																<YPos>-10</YPos>
 																<Flags>0</Flags>
 																<SegmentShape>Log2</SegmentShape>
@@ -53943,7 +53947,7 @@
 								<RTPC Name="" ID="{99347D03-11AC-4C38-BD1F-A8CFD43AA8F3}" ShortID="579936869">
 									<ReferenceList>
 										<Reference Name="ControlInput">
-											<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{FA7ABE79-2514-48C5-872B-8DB87C16C928}" WorkUnitID="{0D3E8C4D-7DA1-4324-B6B3-156D584A0868}"/>
+											<ObjectRef Name="RTPC_ext_settings_volume_master_music" ID="{DC7E132E-A0D0-4622-9D94-4971AC27CE05}" WorkUnitID="{0D3E8C4D-7DA1-4324-B6B3-156D584A0868}"/>
 										</Reference>
 									</ReferenceList>
 									<Curve Name="" ID="{64E47148-0BCD-4138-8BC4-37901822B182}">
@@ -53953,7 +53957,7 @@
 										<PointList>
 											<Point>
 												<XPos>0</XPos>
-												<YPos>-1</YPos>
+												<YPos>-200</YPos>
 												<Flags>5</Flags>
 											</Point>
 											<Point>
@@ -53988,34 +53992,6 @@
 									<ValueList>
 										<Value>True</Value>
 									</ValueList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<RTPCList>
-										<RTPC Name="" ID="{D70C8114-D670-4905-8E05-73A13AEEA0FE}" ShortID="97865410">
-											<ReferenceList>
-												<Reference Name="ControlInput">
-													<ObjectRef Name="RTPC_ext_settings_volume_master_fx" ID="{FA7ABE79-2514-48C5-872B-8DB87C16C928}" WorkUnitID="{0D3E8C4D-7DA1-4324-B6B3-156D584A0868}"/>
-												</Reference>
-											</ReferenceList>
-											<Curve Name="" ID="{698BF312-F918-49D6-B760-E59FB3A761A2}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>1</XPos>
-														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</RTPC>
-									</RTPCList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
@@ -54063,7 +54039,7 @@
 											</Point>
 											<Point>
 												<XPos>1</XPos>
-												<YPos>52</YPos>
+												<YPos>50</YPos>
 												<Flags>37</Flags>
 											</Point>
 										</PointList>
@@ -54507,7 +54483,7 @@
 											</Point>
 											<Point>
 												<XPos>1</XPos>
-												<YPos>52</YPos>
+												<YPos>50</YPos>
 												<Flags>37</Flags>
 											</Point>
 										</PointList>
@@ -54751,7 +54727,7 @@
 						<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
 						<Property Name="MakeUpGain" Type="Real64">
 							<ValueList>
-								<Value>-10</Value>
+								<Value>-5</Value>
 							</ValueList>
 						</Property>
 						<Property Name="MaxSoundPerInstance" Type="int16">
@@ -54805,6 +54781,10 @@
 					</ReferenceList>
 					<ChildrenList>
 						<RandomSequenceContainer Name="airfield" ID="{1CEB7564-D9DD-41E0-A907-1C47F14AFBF2}" ShortID="603654045">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -54839,6 +54819,10 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="sandriver" ID="{8454548F-14C1-420C-9CB1-656C71D6056B}" ShortID="346004717">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -54873,6 +54857,10 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="ruinberg" ID="{31B9523F-F58D-4C10-9DEE-BF704839243B}" ShortID="43390138">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -54907,6 +54895,10 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="chinese" ID="{A4F5B0FF-4DF1-4D37-851C-1D611AE763CD}" ShortID="75046973">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -54941,6 +54933,10 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="prokhorovka" ID="{98A3A182-63AD-4857-812C-3ED9F93F5D79}" ShortID="976033113">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -54975,6 +54971,10 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="lakville" ID="{430D917B-6BB8-491D-8C53-5F30C735DC06}" ShortID="829683566">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -55009,6 +55009,10 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="overlord" ID="{5CD39DFC-E8E3-4009-8B86-EA90DE02AE78}" ShortID="784418548">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -55043,6 +55047,10 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="japan" ID="{EB4EDE75-DDE8-4650-9F46-935E3E4834AD}" ShortID="23009994">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -55077,6 +55085,10 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="himmelsdorf" ID="{AB8C85E0-0A74-4A8C-BA45-56CD00E58DDB}" ShortID="969343641">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -55111,6 +55123,10 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="malinovka" ID="{926A2B9C-C01F-4BFC-B6F4-92ACF1B16F3B}" ShortID="366815428">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -55145,6 +55161,10 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="mannerheilm" ID="{1A33F656-9C12-4EEB-8932-871DE89F7FEA}" ShortID="749881125">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>

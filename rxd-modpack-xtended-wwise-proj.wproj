@@ -34,18 +34,16 @@
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
-						<Value Platform="Windows">..\rxd-modpack-xtended\src\WwiseSound\</Value>
+						<Value Platform="Windows">..\rxd-modpack-xtended\cache\</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPostGenerateCustomCmdDescription" Type="string">
 					<ValueList>
-						<Value>Clean Project</Value>
 						<Value Platform="Windows">Copy Streamed Files</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPostGenerateCustomCmdLines" Type="string">
 					<ValueList>
-						<Value>$(WwiseExePath)\clean.bat</Value>
 						<Value Platform="Windows">"$(CopyStreamedFilesExePath)" -info "$(InfoFilePath)" -outputpath "$(SoundBankPath)" -banks "$(SoundBankListAsTextFile)" -languages "$(LanguageList)"</Value>
 					</ValueList>
 				</Property>
@@ -11545,8 +11543,8 @@
 			<LogCentralIgnoreList>
 				<IgnoreItem MessageId="None"/>
 				<IgnoreItem MessageId="BankIsMissingFiles"/>
-				<IgnoreItem MessageId="MediaDuplicated"/>
 				<IgnoreItem MessageId="NoActiveSource"/>
+				<IgnoreItem MessageId="MediaDuplicated"/>
 			</LogCentralIgnoreList>
 			<DefaultConversion Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}"/>
 			<PhysicalFolderList>

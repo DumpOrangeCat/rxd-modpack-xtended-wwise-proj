@@ -494,6 +494,24 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="music_maps_battle" ID="{B599295A-89AD-4AF4-B74C-F09A2C8A2ADE}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Malinovka" ID="{1D4C25C2-C63E-402E-BF1B-40D1B07519F2}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Overlord" ID="{2D28A9DB-E8B2-4170-ACDC-A0EE3D25A957}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Mannerheilm" ID="{B81AF4ED-FC1D-42ED-A00C-44D3FAFCC148}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Prokhorovka" ID="{1D299CB5-9AD8-448A-B8EF-394961A94D91}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Sand_River" ID="{BD0E81E5-1DEA-44ED-8A25-D43C22844E14}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Airfield" ID="{CFD2E0B7-0891-452D-BBB1-7BCC0EAC8304}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Lakville" ID="{8417C6A4-B9AE-465D-AC75-ED1FCD08059D}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Himmelsdorf" ID="{34286952-BACF-466D-9A3A-4BB5B8530C46}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Ruinberg" ID="{0F6C1D5F-EE0A-488B-8F5C-DD5FEF14A580}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Chinese" ID="{5987E80C-0CC9-4908-9D28-C990B88E530F}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Japan" ID="{AC7C7CA5-45F7-4E25-BB44-BCE145FB40E2}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>
