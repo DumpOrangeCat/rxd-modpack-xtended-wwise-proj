@@ -12,7 +12,7 @@
 						<ObjectRef Name="GUI_buttons_ok" ID="{C0BD9CA2-BBC6-4553-B592-3986D0E02CE5}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="GUI_buttons_cancel" ID="{962C21C0-BF35-457D-99FE-AAC84B9E23CF}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="GUI_buttons_open" ID="{E8E504F8-CA3B-46B6-9093-026114BC05AB}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="rxd_dev" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="hangar_ambient_loginscreen_v1_loginscreen" ID="{DE19111F-DD57-4A60-80A0-EE76BF9DDEB9}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="GUI_buttons_choose" ID="{E19CE6CF-83F3-4C7A-A001-AFB8E1327F1E}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
@@ -22,7 +22,7 @@
 				<SoundBank Name="explosions" ID="{18B67F06-5BD7-41FA-BF23-207D45E3088A}">
 					<ObjectInclusionList>
 						<ObjectRef Name="hits_tank_death_tank_death" ID="{6695BFA3-D93E-4033-B355-17FB0270915D}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="rxd_dev" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
@@ -125,7 +125,7 @@
 						<ObjectRef Name="hits_hits_tank_npc_hc_hc_armor_pierce_small" ID="{258DC018-8C1D-48F7-809D-D330C4B26F8E}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="hits_surface_hits_main_hit_stone_fougasse_main" ID="{6CC470EE-7BB0-493A-88AA-0E4160D89ED1}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="hits_hits_tank_pc_ap_ap_ricochet_small" ID="{5AF058D2-3CE8-4958-8242-189BBAE97807}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="rxd_dev" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="hits_hits_tank_npc_hc_hc_critical_hit_main" ID="{45421EC1-27D1-497D-AA7B-7445C23824FA}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="hits_hits_tank_pc_hc_hc_armor_not_pierce_main" ID="{1B0D79A9-9DBD-4988-A52E-9963A8C794D8}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="hits_hits_tank_npc_ap_ap_armor_not_pierce_small" ID="{0317FEFB-4525-498D-A1A6-C40A574ED24E}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
@@ -206,7 +206,7 @@
 						<ObjectRef Name="hits_hits_tank_npc_ap_ap_armor_not_pierce_main" ID="{197399F4-584A-45F1-98EC-D104DA2C8D1A}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="hits_surface_hits_medium_hit_ground_medium" ID="{9A025F0C-D8CE-46B6-9918-BE90BFA3B5D1}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="hits_surface_hits_main_hit_snow_main" ID="{92A2A539-1798-487B-AB05-CC31CD02C697}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="rxd_dev" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="hits_surface_hits_large_hit_ground_fougasse_large" ID="{81004C0D-7340-49F2-8C94-DAFBD179C95F}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="hits_hits_tank_pc_ap_ap_critical_hit_medium" ID="{30126E44-15A0-4A5C-B0C3-0DA88F890443}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="hits_hits_tank_npc_ap_ap_ricochet_main" ID="{8C02A1C5-D41F-4AA2-9DAF-982309B666A8}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
@@ -236,7 +236,7 @@
 				<SoundBank Name="music_battle" ID="{DF4E62A9-3169-4673-A780-8711CF8E5D78}">
 					<ObjectInclusionList>
 						<ObjectRef Name="GUI_notifications_FX_victory_PC" ID="{7777BA04-6A92-4948-99C3-CB59D56CDC21}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="rxd_dev" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="GUI_notifications_FX_victory_NPC" ID="{5816A0D2-5DCD-4D45-99D3-2F718E62C3A4}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
@@ -245,14 +245,14 @@
 				<SoundBank Name="music_maps_america_lakville" ID="{C8D98B7B-FAFB-455E-9F99-75A4CF3898AD}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Music_America_Lakville" ID="{4E7486D7-0C3E-4687-8407-8BABC684C734}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="rxd_dev" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="music_maps_america_overlord" ID="{28D78A58-3072-407B-9DDC-DC97646AE15E}">
 					<ObjectInclusionList>
-						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="rxd_dev" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music_America_Overlord" ID="{E99D870C-D367-4C4C-9AF7-B326A5D81681}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
@@ -260,7 +260,7 @@
 				</SoundBank>
 				<SoundBank Name="music_maps_chinese" ID="{DDDB361D-06B9-47A0-B763-55457B07D615}">
 					<ObjectInclusionList>
-						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="rxd_dev" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music_Chinese" ID="{D2B671E2-BEA1-4F78-90E0-74E47C1D0A37}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
@@ -268,7 +268,7 @@
 				</SoundBank>
 				<SoundBank Name="music_maps_desert_airfield" ID="{2539C9AC-7A97-4B29-8E51-1DF1212F82D2}">
 					<ObjectInclusionList>
-						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="rxd_dev" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music_Desert_Airfield" ID="{D3AFBE2F-FEAD-4BCB-A784-22A12DE0D4BC}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
@@ -277,7 +277,7 @@
 				<SoundBank Name="music_maps_desert_sand_river" ID="{D5E8ACD8-CF61-4965-B9C3-E01E23F48F86}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Music_Desert_Sand_River" ID="{5DF855B4-7B09-406B-B8B1-00D46BF26F06}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="rxd_dev" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
@@ -285,7 +285,7 @@
 				<SoundBank Name="music_maps_europe_himmelsdorf" ID="{983B184A-B2F7-44FE-A6E5-595D94EAA219}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Music_Europe_Himmelsdorf" ID="{7D6A5681-7264-46D5-B669-D9FF3B6B4B0C}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="rxd_dev" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
@@ -293,7 +293,7 @@
 				<SoundBank Name="music_maps_europe_mannerheim" ID="{22753AA4-72C4-4E2E-82B3-3DE0B849C850}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Music_Europe_Mannerheim" ID="{527526D7-A7C8-4187-A101-D60C6C60F09D}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="rxd_dev" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
@@ -301,14 +301,14 @@
 				<SoundBank Name="music_maps_europe_ruinberg" ID="{0FC8753D-0974-4F5D-B0B5-FA515B32330E}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Music_Europe_Ruinberg" ID="{E35B546B-A02C-4358-9C8F-D2417D434858}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="rxd_dev" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="music_maps_japan" ID="{F2AB2421-3593-4CC8-8C83-0329E53D7925}">
 					<ObjectInclusionList>
-						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="rxd_dev" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music_Japan" ID="{2DDD5C72-E5E9-4973-90B9-2F5E5280D32C}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
@@ -317,14 +317,14 @@
 				<SoundBank Name="music_maps_russian_malinovka" ID="{CDAFAE67-5888-4AB7-9A61-515ACE9EDEA8}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Music_Russian_Malinovka" ID="{76E955DF-442F-42BA-8351-1FB59870C493}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="rxd_dev" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="music_maps_russian_prokhorovka" ID="{1EEA55D5-2C4C-414A-9677-6BAD5AC2649A}">
 					<ObjectInclusionList>
-						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="rxd_dev" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music_Russian_Prokhorovka" ID="{2F953F7B-7CB3-4D89-AFF2-56DA156FD8DE}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
@@ -345,7 +345,7 @@
 						<ObjectRef Name="GUI_notifications_FX_fire_extinguisher" ID="{95B1CAB9-D7B1-4868-9802-049EB294780C}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="GUI_notifications_FX_restorer" ID="{FF2CA108-887A-487D-9E72-86F36CD173AF}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="GUI_notifications_FX_quick_commands_close" ID="{4B03163C-E881-48DE-9E88-CC4D0DF224F0}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="rxd_dev" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="GUI_notifications_FX_stripe" ID="{E34F36D1-7289-4BA5-B670-6666E819B763}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="GUI_notifications_FX_shells_open" ID="{B83B3A10-F964-4BD4-89EA-36D0A64BE5E4}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="GUI_notifications_FX_perk_shooter_max" ID="{45C29DE8-47DF-4BEA-A551-7EF03E7A743D}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
@@ -375,7 +375,7 @@
 						<ObjectRef Name="GUI_buttons_error" ID="{608078DE-DBC1-4937-8C0D-F5DFD2A2E7B5}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="GUI_notifications_FX_task_new" ID="{3640ACE8-16D0-4938-AD1B-59F758025101}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="GUI_buttons_buy" ID="{664C8503-CA3F-4944-BF4F-EF0815C1C15D}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="rxd_dev" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="GUI_buttons_bz_no" ID="{20E13F27-0EE3-499C-8EDC-2390E78DB984}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="GUI_buttons_box_prize" ID="{E290BB13-1B8A-499C-96D0-B3B7B6FF9433}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="GUI_buttons_premialization_on" ID="{CF6E496D-3829-49B7-9CC1-EB0FC602DE34}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
@@ -402,7 +402,7 @@
 						<ObjectRef Name="GUI_notifications_FX_quick_commands_positive" ID="{34C32FF4-422C-46AC-9167-86D2F3A7AE7B}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="GUI_notifications_FX_quick_commands_attack" ID="{1BADF035-1B5D-4737-B679-EB6B37CF7C60}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="GUI_notifications_FX_quick_commands_negative" ID="{A1CEDEFD-FC98-48B2-B145-CA1A3F403F96}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="rxd_dev" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="GUI_notifications_FX_chat_chat_to_all" ID="{23D72AD1-9702-4A00-B074-F18AD6B22894}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="GUI_notifications_FX_chat_chat_to_allies" ID="{45C07698-06B2-4A2D-B2B5-FC464A29B0F0}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="GUI_notifications_FX_chat_chat_to_squad" ID="{F4DC43DE-B9DF-4BBE-93A1-FF8A84A50C67}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
@@ -418,7 +418,9 @@
 						<ObjectRef Name="play_wpn_auto_3p" ID="{752804CD-6A04-40D0-9683-1F0BA0BB51FC}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_wpn_small_1p" ID="{3F5378FE-1492-412E-ABF1-95BEC51D10FD}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_wpn_auto_1p" ID="{54D6FB43-3CED-4430-9A51-23441EA3A305}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="guns_tow_tow_npc" ID="{D831C426-F37D-4486-8E0A-9AF36DF09037}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="guns_tow_tow_pc" ID="{685FC48F-F1C6-45CE-A858-B92A8E29E440}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="rxd_dev" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_wpn_huge_1p" ID="{64AD9238-54A0-49ED-BB42-0D0827D74472}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_wpn_huge_extra_3p" ID="{42436933-D227-4B68-AE28-CB719E27B737}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_wpn_huge_3p" ID="{58197413-24C3-4CAF-BDC5-C127628D045E}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
@@ -431,12 +433,12 @@
 				<SoundBank Name="weapon_basic" ID="{FD014BC2-CCB9-497C-BA7B-938DAA78A0B7}">
 					<ObjectInclusionList>
 						<ObjectRef Name="play_wpn_mid_3p" ID="{1793E0AA-6A62-41EA-801C-4CF11FB0E8B3}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="a1wdkt_9" ID="{6EE14E72-7952-430B-B4B9-AD887CC5B5AA}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_test_guns_1p" ID="{6EE14E72-7952-430B-B4B9-AD887CC5B5AA}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_wpn_large_1p" ID="{2D335998-F4ED-43A5-BC92-9A6783AEFD93}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="guns_tracers_tracer_tow" ID="{D39B9838-9654-4429-BC5F-1D82C8D82AA7}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_wpn_main_1p" ID="{B18CFF85-78E2-45C0-B413-8FF64B7964F1}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="a0cs4zut" ID="{484935F5-B2A0-4A23-ACA2-AC6842AA1DF4}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="rxd_dev" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_test_guns_2p" ID="{484935F5-B2A0-4A23-ACA2-AC6842AA1DF4}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="guns_tracers_tracer_light" ID="{C5B074DB-A0E6-4A5E-AE4D-345AAD797418}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="guns_tracers_tracer_medium" ID="{5865594D-9A92-4AAC-AD3C-2EBA4CAAF56F}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_wpn_main_3p" ID="{B8262139-C040-4BD7-AB50-970FEBAFB96C}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
@@ -458,7 +460,7 @@
 						<ObjectRef Name="GUI_notifications_FX_timer" ID="{94BA0FDD-931D-470E-9C20-8C9F5C5892DB}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="GUI_notifications_FX_lamp" ID="{CF803F74-90E4-479E-AC05-1EEB84B6D80E}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="GUI_notifications_FX_base_capture_enemy" ID="{30FCA489-8D3E-4826-965D-1B8E3BDDADE3}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="rxd_dev" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="GUI_notifications_FX_enemy_sighted_for_team" ID="{8399F4D7-3498-4AB6-9B5C-8144C5025F14}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="GUI_notifications_FX_zoom_out" ID="{466A9305-6937-4B8E-973D-9A9E9E8B0769}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="GUI_notifications_FX_sight_convergence" ID="{9314751D-B857-4C9D-801E-F833E2CFBE68}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
@@ -473,14 +475,14 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Music_aftershot_draw" ID="{DB66291C-2DA9-42F8-BB74-0C4D1BCF94BD}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music_aftershot_defeat" ID="{849ECB6B-9068-46DA-B672-4988508BA4FF}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="rxd_dev" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="music_result_screen_basic" ID="{A6FB547C-66A9-42AF-95B0-843A4C23C9E7}">
 					<ObjectInclusionList>
-						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="rxd_dev" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music_aftershot_victory" ID="{273C8E85-410C-4D25-93C5-ABF776B91212}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
@@ -489,7 +491,7 @@
 				<SoundBank Name="hangar_normal" ID="{2263468A-3D8B-4740-9621-C71E3105011A}">
 					<ObjectInclusionList>
 						<ObjectRef Name="hangar_ambient_hangar_blitz_v1_premium" ID="{4CC04C85-DE84-46BA-BC42-8AE9AB339341}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="rxd_dev" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
@@ -506,8 +508,20 @@
 						<ObjectRef Name="Play_Himmelsdorf" ID="{34286952-BACF-466D-9A3A-4BB5B8530C46}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Ruinberg" ID="{0F6C1D5F-EE0A-488B-8F5C-DD5FEF14A580}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Chinese" ID="{5987E80C-0CC9-4908-9D28-C990B88E530F}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="a1ekw6m6" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="rxd_dev" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Japan" ID="{AC7C7CA5-45F7-4E25-BB44-BCE145FB40E2}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="utility_events" ID="{73E9805D-F5E5-4A80-88D8-E382767DFF1A}">
+					<ObjectInclusionList>
+						<ObjectRef Name="stop_group_music_hangar" ID="{3DC30F42-44F6-4237-88EC-2ACBB0479C79}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="stop_group_music" ID="{A32096DB-4331-451E-9434-68191634685D}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ue_pause" ID="{DB10CFEC-AAC0-4543-9831-A5753CCA47CD}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="stop_group_music_prebattle" ID="{C6C67630-D813-4572-8DB9-3815217DD2E2}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ue_resume" ID="{6F311126-3D65-489F-AE7B-8B6140932C56}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="stop_group_music_aftershot" ID="{B2F56F92-1A7D-4DB6-980F-1DBA117146BD}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

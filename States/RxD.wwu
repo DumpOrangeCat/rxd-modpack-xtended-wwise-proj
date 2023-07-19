@@ -11,14 +11,14 @@
 					</ChildrenList>
 					<TransitionList>
 						<Transition>
-							<StartState Name="STATE_music_volume_on" ID="{8734855F-ED00-4D62-A452-3635D5BE236B}"/>
-							<EndState Name="STATE_music_volume_off" ID="{D4B723F1-59EF-4786-924C-9EE7BAF83EB9}"/>
+							<StartState Name="STATE_music_volume_off" ID="{D4B723F1-59EF-4786-924C-9EE7BAF83EB9}"/>
+							<EndState Name="STATE_music_volume_on" ID="{8734855F-ED00-4D62-A452-3635D5BE236B}"/>
 							<Time>1</Time>
 							<IsShared>false</IsShared>
 						</Transition>
 						<Transition>
-							<StartState Name="STATE_music_volume_off" ID="{D4B723F1-59EF-4786-924C-9EE7BAF83EB9}"/>
-							<EndState Name="STATE_music_volume_on" ID="{8734855F-ED00-4D62-A452-3635D5BE236B}"/>
+							<StartState Name="STATE_music_volume_on" ID="{8734855F-ED00-4D62-A452-3635D5BE236B}"/>
+							<EndState Name="STATE_music_volume_off" ID="{D4B723F1-59EF-4786-924C-9EE7BAF83EB9}"/>
 							<Time>1</Time>
 							<IsShared>false</IsShared>
 						</Transition>
