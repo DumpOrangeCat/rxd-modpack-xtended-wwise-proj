@@ -438,7 +438,7 @@
 						<ObjectRef Name="guns_tracers_tracer_tow" ID="{D39B9838-9654-4429-BC5F-1D82C8D82AA7}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_wpn_main_1p" ID="{B18CFF85-78E2-45C0-B413-8FF64B7964F1}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="rxd_dev" ID="{DAEDCEC9-A783-4965-93B7-DA4C30C4DD71}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="play_test_guns_2p" ID="{484935F5-B2A0-4A23-ACA2-AC6842AA1DF4}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_test_guns_3p" ID="{484935F5-B2A0-4A23-ACA2-AC6842AA1DF4}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="guns_tracers_tracer_light" ID="{C5B074DB-A0E6-4A5E-AE4D-345AAD797418}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="guns_tracers_tracer_medium" ID="{5865594D-9A92-4AAC-AD3C-2EBA4CAAF56F}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_wpn_main_3p" ID="{B8262139-C040-4BD7-AB50-970FEBAFB96C}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>

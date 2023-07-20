@@ -1283,6 +1283,16 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{32975159-0C27-4647-9D9A-D4AA59D82867}" ShortID="455951566">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="reloading" ID="{CF858A2E-7EE9-4690-A067-7876C865F16A}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="play_wpn_auto_1p" ID="{54D6FB43-3CED-4430-9A51-23441EA3A305}">
@@ -1500,7 +1510,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="play_test_guns_2p" ID="{484935F5-B2A0-4A23-ACA2-AC6842AA1DF4}">
+						<Event Name="play_test_guns_3p" ID="{484935F5-B2A0-4A23-ACA2-AC6842AA1DF4}">
 							<ChildrenList>
 								<Action Name="" ID="{A668F19B-E5EE-40F7-A7A9-C109C53960E4}" ShortID="80331888">
 									<ReferenceList>
