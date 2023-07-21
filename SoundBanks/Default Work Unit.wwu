@@ -46,6 +46,7 @@
 								<ObjectRef Name="ingame_voice_notifications_VO_track_functional_can_move" ID="{11151F62-0754-4F0B-8891-76F6983D2554}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 								<ObjectRef Name="ingame_voice_notifications_VO_track_damaged" ID="{75686F1B-3F83-4F1E-92EC-18A82AB3D924}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
 								<ObjectRef Name="ingame_voice_notifications_VO_gun_damaged" ID="{7DFBC088-BCC3-4FD1-B581-0C279E3B0B84}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="1006476396" ID="{A520A270-7E99-4FFF-8DC3-54E31038FA07}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}" Origin="Manual" Filter="7"/>
 							</ObjectInclusionList>
 							<ObjectExclusionList/>
 							<GameSyncExclusionList/>
