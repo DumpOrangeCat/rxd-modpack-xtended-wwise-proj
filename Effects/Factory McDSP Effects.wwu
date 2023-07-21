@@ -415,14 +415,28 @@
 										</Effect>
 										<Effect Name="Lets_Do_Lunch" ID="{F8C5F019-CCF3-41C4-8AE3-DC16397E515F}" PluginName="McDSP FutzBox" CompanyID="256" PluginID="110" PluginType="3">
 											<PropertyList>
-												<Property Name="DistortionAmount" Type="Real32" Value="7.8"/>
-												<Property Name="DistortionMode" Type="int32" Value="2"/>
+												<Property Name="DistortionAmount" Type="Real32" Value="20"/>
+												<Property Name="DistortionIntensity" Type="Real32" Value="100"/>
+												<Property Name="DistortionMode" Type="int32" Value="1"/>
+												<Property Name="DistortionRectify" Type="Real32" Value="48"/>
 												<Property Name="EQEnable" Type="bool" Value="False"/>
-												<Property Name="FiltersHPFFreq" Type="Real32" Value="302.7"/>
+												<Property Name="EQFreq" Type="Real32" Value="8000"/>
+												<Property Name="EQGain" Type="Real32" Value="6"/>
+												<Property Name="EQQ" Type="Real32" Value="1.2"/>
+												<Property Name="FiltersHPFFreq" Type="Real32" Value="470.99"/>
 												<Property Name="FiltersHPFSlope" Type="int32" Value="1"/>
+												<Property Name="FiltersLPFFreq" Type="Real32" Value="7035.14"/>
+												<Property Name="FiltersLPFQ" Type="Real32" Value="46.8"/>
 												<Property Name="GateEnable" Type="bool" Value="False"/>
 												<Property Name="LoFiFilter" Type="Real32" Value="5.9"/>
 												<Property Name="NoiseEnable" Type="bool" Value="False"/>
+												<Property Name="NoiseHPFFreq" Type="Real32" Value="345.19"/>
+												<Property Name="NoiseLPFFreq" Type="Real32" Value="2461.91"/>
+												<Property Name="NoiseLevel" Type="Real32" Value="-14.89"/>
+												<Property Name="NoiseRange" Type="Real32" Value="-23.2"/>
+												<Property Name="NoiseRecovery" Type="Real32" Value="128.54"/>
+												<Property Name="NoiseThresh" Type="Real32" Value="-32"/>
+												<Property Name="OutputGain" Type="Real32" Value="6"/>
 												<Property Name="SIMTuning" Type="Real32" Value="155.1"/>
 												<Property Name="SIMType" Type="int32" Value="119"/>
 											</PropertyList>
