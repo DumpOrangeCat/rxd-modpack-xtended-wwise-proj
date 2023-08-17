@@ -5283,17 +5283,10 @@
 					<ChildrenList>
 						<Event Name="hangar_ambient_hangar_blitz_v1_premium" ID="{4CC04C85-DE84-46BA-BC42-8AE9AB339341}">
 							<ChildrenList>
-								<Action Name="" ID="{0FD2F5D4-9CCF-4373-9699-3950B9E5EFC3}" ShortID="332144548">
+								<Action Name="" ID="{0E216406-8E21-44F5-8737-69A0B14A513B}" ShortID="780499233">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="main" ID="{2B74632E-8E63-4EE7-91C7-D70F0CDB5F27}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{7E92B3C7-B978-46DB-9CAC-D7AA44845056}" ShortID="310468823">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="sub" ID="{5831309A-5D1E-4F83-B631-5026E176DA0F}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+											<ObjectRef Name="music_seq" ID="{08835403-4EA5-4AD5-9B3E-7C49DA615C2D}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
