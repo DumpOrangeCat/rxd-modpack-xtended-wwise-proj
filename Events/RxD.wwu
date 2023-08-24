@@ -738,10 +738,10 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{E603D0F8-B54A-426C-91C4-D32062F8C745}" ShortID="144395074">
+								<Action Name="" ID="{AD68F39C-E4F3-4503-AF2B-1562C3C30B14}" ShortID="973036043">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="204535474" ID="{931B2482-17E0-46A8-A56F-92BD57469030}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+											<ObjectRef Name="attack_target_hold_position" ID="{585CE932-997E-4E81-A976-5FA5E664EC56}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -785,10 +785,10 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{681C9484-6AA5-4CFB-8929-A9D21C0B54EB}" ShortID="997797657">
+								<Action Name="" ID="{2DDE571B-279F-4172-A396-1611901E173E}" ShortID="975729481">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="68527164" ID="{2532AE3B-79DF-49CB-9670-FD2A1530A398}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+											<ObjectRef Name="attack_target_hold_position" ID="{585CE932-997E-4E81-A976-5FA5E664EC56}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -821,10 +821,10 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{862DE815-C8E4-4859-BDE8-14096DF5B3BE}" ShortID="976338833">
+								<Action Name="" ID="{E8C9807C-985A-465F-8E14-14114A19D308}" ShortID="756843628">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="848167020" ID="{C1E37FEB-8BD7-4A4D-88B3-BADA005C1B58}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+											<ObjectRef Name="attack" ID="{8C00A497-3548-4AE9-8DB6-861E772E8086}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -868,10 +868,10 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{9E93A0B0-FCA7-45D1-9B81-7039E3B39DA8}" ShortID="671502761">
+								<Action Name="" ID="{C8D0348B-2F48-4978-A160-5A006619D4E4}" ShortID="227024644">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="848167020" ID="{C1E37FEB-8BD7-4A4D-88B3-BADA005C1B58}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+											<ObjectRef Name="attack_target_hold_position" ID="{585CE932-997E-4E81-A976-5FA5E664EC56}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -904,10 +904,10 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{3BE036DC-7489-4ED6-805B-FC5975498B72}" ShortID="729462469">
+								<Action Name="" ID="{3F8DED71-59CB-41DA-9A86-483522F2A9B7}" ShortID="807855037">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="618791677" ID="{F5F48E29-F1EB-4944-AC1A-6B3A7528AA0E}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+											<ObjectRef Name="positive" ID="{C0DE2665-305E-4C9F-A452-DBB8F9263BD2}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -926,17 +926,17 @@
 						</Event>
 						<Event Name="GUI_notifications_FX_quick_commands_help_me" ID="{5601454A-FC90-4EB4-8A65-4A937BACA2F2}">
 							<ChildrenList>
-								<Action Name="" ID="{0BFCF32C-3121-4F04-AAA8-4389BB204F93}" ShortID="521643042">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="204535474" ID="{931B2482-17E0-46A8-A56F-92BD57469030}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
 								<Action Name="" ID="{C247ECB4-112A-4F3B-A4AF-011F3C0095C9}" ShortID="348060883">
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="901842609" ID="{7DA57B53-D164-4C05-9AB6-C41F319FAF77}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F1F3FFED-5E54-41FA-977E-19EA025970C7}" ShortID="913659186">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="help" ID="{CD6DDEC0-CACC-467C-B058-C444A6420B42}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
