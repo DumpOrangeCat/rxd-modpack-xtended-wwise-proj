@@ -6473,6 +6473,43 @@
 						</Folder>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Music_Menu" ID="{AA1ABEDB-25AE-4890-8745-54BF223A7E3A}" ShortID="129595796">
+					<ChildrenList>
+						<Event Name="Battle_Queue_Music" ID="{3CD68CDC-90E3-4067-BD97-118315042D59}">
+							<ChildrenList>
+								<Action Name="" ID="{3D7AE301-10E2-46D2-840F-B4F9D0F524F8}" ShortID="98795853">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="battle_queue" ID="{D5C15ED0-7C1A-4AE3-8A9F-692B9175F9F3}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Battle_Pass_Music" ID="{420D0AC2-3BCB-4B6E-9FB1-79D51DB0E5A7}">
+							<ChildrenList>
+								<Action Name="" ID="{F910E853-7699-4614-AA99-57BB0D70D535}" ShortID="225546730">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="battle_pass" ID="{0E8D6441-8355-461F-A022-6285BBBDD706}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Tech_Tree_Music" ID="{5D707C47-F889-483E-9AD8-8972C45CF4B7}">
+							<ChildrenList>
+								<Action Name="" ID="{4E1E2F4F-AC0C-47C7-9778-2425C946B2A6}" ShortID="513309173">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="tech_tree" ID="{6E63C3BB-C85D-478E-B079-53DFC8F2D081}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

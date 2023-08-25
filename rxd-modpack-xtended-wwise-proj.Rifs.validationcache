@@ -50,9 +50,9 @@
 	<ValidationCacheItem File="F:\Work\git\rxd-modpack-xtended-wwise-proj\States\RxD.wwu" DateLow="1689865938" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Work\git\rxd-modpack-xtended-wwise-proj\States\Default Work Unit.wwu" DateLow="1689865938" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Work\git\rxd-modpack-xtended-wwise-proj\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1689865938" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Work\git\rxd-modpack-xtended-wwise-proj\SoundBanks\Default Work Unit.wwu" DateLow="1690310237" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Work\git\rxd-modpack-xtended-wwise-proj\SoundBanks\Default Work Unit.wwu" DateLow="1692945699" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Work\git\rxd-modpack-xtended-wwise-proj\rxd-modpack-xtended-wwise-proj.wproj" DateLow="1689873002" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Work\git\rxd-modpack-xtended-wwise-proj\rxd-modpack-xtended-wwise-proj.Rifs.wsettings" DateLow="1692875133" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Work\git\rxd-modpack-xtended-wwise-proj\rxd-modpack-xtended-wwise-proj.Rifs.wsettings" DateLow="1692949528" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Work\git\rxd-modpack-xtended-wwise-proj\Queries\Factory Queries.wwu" DateLow="1689865938" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Work\git\rxd-modpack-xtended-wwise-proj\Queries\Default Work Unit.wwu" DateLow="1689865938" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Work\git\rxd-modpack-xtended-wwise-proj\Presets\Factory Spatial Audio.wwu" DateLow="1689865938" DateHigh="0"/>
@@ -64,8 +64,8 @@
 	<ValidationCacheItem File="F:\Work\git\rxd-modpack-xtended-wwise-proj\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1689865916" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Work\git\rxd-modpack-xtended-wwise-proj\Game Parameters\RxD.wwu" DateLow="1692314725" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Work\git\rxd-modpack-xtended-wwise-proj\Game Parameters\Default Work Unit.wwu" DateLow="1689865916" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Work\git\rxd-modpack-xtended-wwise-proj\Events\RxD.wwu" DateLow="1692875100" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Work\git\rxd-modpack-xtended-wwise-proj\Events\Default Work Unit.wwu" DateLow="1690310320" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Work\git\rxd-modpack-xtended-wwise-proj\Events\RxD.wwu" DateLow="1692945699" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Work\git\rxd-modpack-xtended-wwise-proj\Events\Default Work Unit.wwu" DateLow="1692945699" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Work\git\rxd-modpack-xtended-wwise-proj\Effects\Factory Reflect.wwu" DateLow="1689865916" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Work\git\rxd-modpack-xtended-wwise-proj\Effects\Factory McDSP Effects.wwu" DateLow="1689954357" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Work\git\rxd-modpack-xtended-wwise-proj\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1689865916" DateHigh="0"/>
@@ -87,5 +87,5 @@
 	<ValidationCacheItem File="F:\Work\git\rxd-modpack-xtended-wwise-proj\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1689865916" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Work\git\rxd-modpack-xtended-wwise-proj\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1689865916" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Work\git\rxd-modpack-xtended-wwise-proj\Actor-Mixer Hierarchy\Factory Motion.wwu" DateLow="1689865916" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Work\git\rxd-modpack-xtended-wwise-proj\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1692875100" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Work\git\rxd-modpack-xtended-wwise-proj\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1692945677" DateHigh="0"/>
 </ValidationCache>

@@ -196,6 +196,15 @@
 							<ObjectExclusionList/>
 							<GameSyncExclusionList/>
 						</SoundBank>
+						<SoundBank Name="music_menu" ID="{83A1502A-226D-46C4-B99F-BAB9E7692149}">
+							<ObjectInclusionList>
+								<ObjectRef Name="Battle_Queue_Music" ID="{3CD68CDC-90E3-4067-BD97-118315042D59}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Tech_Tree_Music" ID="{5D707C47-F889-483E-9AD8-8972C45CF4B7}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Battle_Pass_Music" ID="{420D0AC2-3BCB-4B6E-9FB1-79D51DB0E5A7}" WorkUnitID="{59E17A2F-F47D-49D1-903C-0BDA287C3448}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="battle" ID="{212685C3-70B3-40A2-9DDC-98165F5EFD51}" ShortID="462285006">
