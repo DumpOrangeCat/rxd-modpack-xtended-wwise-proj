@@ -6,111 +6,23 @@
 				<Platform Name="Windows" ReferencePlatform="Windows" ID="{501E3692-C057-46E3-A406-3FAA6463B40B}"/>
 			</Platforms>
 			<LanguageList>
-				<Language Name="cn" ID="{C632DCDA-77B6-47BF-A79B-4BFF625A47E8}">
-					<PropertyList>
-						<Property Name="VolumeOffset" Type="Real64">
-							<ValueList>
-								<Value>5</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-				</Language>
-				<Language Name="cs" ID="{9BB78554-00BF-4228-B151-FDECF45284E2}">
-					<PropertyList>
-						<Property Name="VolumeOffset" Type="Real64">
-							<ValueList>
-								<Value>5</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-				</Language>
-				<Language Name="de" ID="{E1BEDB67-E692-4096-9C14-169711B6B55C}">
-					<PropertyList>
-						<Property Name="VolumeOffset" Type="Real64">
-							<ValueList>
-								<Value>5</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-				</Language>
-				<Language Name="en" ID="{5DFC74D9-D5A9-42BE-BE3F-CE29B26E4A51}">
-					<PropertyList>
-						<Property Name="VolumeOffset" Type="Real64">
-							<ValueList>
-								<Value>5</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-				</Language>
-				<Language Name="en_gb" ID="{4F454ACF-E1BC-452D-8E8D-5A84027279C4}">
-					<PropertyList>
-						<Property Name="VolumeOffset" Type="Real64">
-							<ValueList>
-								<Value>5</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-				</Language>
+				<Language Name="cn_wt" ID="{E59DE5C6-6D45-411B-9F70-7D218E219B61}"/>
+				<Language Name="cs_wt" ID="{7ABCF08A-96F1-4EA4-AB91-3DA057A7CEBB}"/>
+				<Language Name="de_wt" ID="{8621AF5E-88DA-4AA6-B0B3-06CF64636DED}"/>
+				<Language Name="en_gb_wt" ID="{711F63FB-F552-4834-A664-02D5B36873FB}"/>
+				<Language Name="en_wt" ID="{DDDE7602-A69D-48D2-8981-1827CD8124C0}"/>
 				<Language Name="External" ID="{A78AFAC5-A227-475F-940D-284175892AB5}"/>
-				<Language Name="fr" ID="{DDDD52C2-039D-49A8-91B8-B6EF60FF7B22}">
-					<PropertyList>
-						<Property Name="VolumeOffset" Type="Real64">
-							<ValueList>
-								<Value>5</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-				</Language>
-				<Language Name="it" ID="{B1F78540-F886-4F2C-BF6A-F0BE4ABD951C}">
-					<PropertyList>
-						<Property Name="VolumeOffset" Type="Real64">
-							<ValueList>
-								<Value>5</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-				</Language>
-				<Language Name="ja" ID="{FAD99927-8CCA-4F91-B913-B85873ABDF15}">
-					<PropertyList>
-						<Property Name="VolumeOffset" Type="Real64">
-							<ValueList>
-								<Value>5</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-				</Language>
+				<Language Name="fr_wt" ID="{51B0B933-D1F4-4D8D-90A1-B692E040E0B7}"/>
+				<Language Name="it_wt" ID="{A9D35B38-ADE4-457B-AB85-02D33262B504}"/>
+				<Language Name="ja_wt" ID="{FEEC0938-698F-4666-B673-D1C7C76318DB}"/>
 				<Language Name="Mixed" ID="{820F0EC8-9785-48A4-966F-0F671C32C3BA}"/>
-				<Language Name="pl" ID="{40DF6D6B-0B31-4524-B681-91FF7ED1CB90}">
-					<PropertyList>
-						<Property Name="VolumeOffset" Type="Real64">
-							<ValueList>
-								<Value>5</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-				</Language>
-				<Language Name="ru" ID="{DF3E6305-10E2-42A7-AD05-FA4AE5228274}">
-					<PropertyList>
-						<Property Name="VolumeOffset" Type="Real64">
-							<ValueList>
-								<Value>5</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-				</Language>
+				<Language Name="pl_wt" ID="{B730281C-A855-446D-9A86-388326719F02}"/>
+				<Language Name="ru_wt" ID="{A0188826-12F7-41C7-8AF3-3CEAD26190EE}"/>
 				<Language Name="SFX" ID="{0342A431-B7EE-40D4-85A8-92C3EB27E7CA}"/>
-				<Language Name="sv" ID="{F630602B-911D-4B30-AF91-3263F328F0C2}">
-					<PropertyList>
-						<Property Name="VolumeOffset" Type="Real64">
-							<ValueList>
-								<Value>5</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-				</Language>
+				<Language Name="sv_wt" ID="{649DD588-E5BD-4C6B-90AF-5FB99F1D4CE9}"/>
 			</LanguageList>
 			<PropertyList>
-				<Property Name="DefaultLanguage" Type="string" Value="en"/>
+				<Property Name="DefaultLanguage" Type="string" Value="en_wt"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
 						<Value Platform="Windows"></Value>
@@ -134,7 +46,7 @@
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
-						<Value Platform="Windows">..\rxd-modpack-xtended\cache\</Value>
+						<Value Platform="Windows">..\rxd-modpack-xtended\cache_wt\</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPostGenerateCustomCmdDescription" Type="string">
@@ -11826,9 +11738,9 @@
 			</EnvironmentalSettings>
 			<LogCentralIgnoreList>
 				<IgnoreItem MessageId="None"/>
-				<IgnoreItem MessageId="MediaDuplicated"/>
-				<IgnoreItem MessageId="NoActiveSource"/>
 				<IgnoreItem MessageId="BankIsMissingFiles"/>
+				<IgnoreItem MessageId="NoActiveSource"/>
+				<IgnoreItem MessageId="MediaDuplicated"/>
 			</LogCentralIgnoreList>
 			<DefaultConversion Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}"/>
 			<PhysicalFolderList>
