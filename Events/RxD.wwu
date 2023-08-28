@@ -128,10 +128,10 @@
 						</Event>
 						<Event Name="GUI_notifications_FX_shells_choose" ID="{220A7219-25E8-4859-9F9C-58F6F12F03AB}">
 							<ChildrenList>
-								<Action Name="" ID="{4F830E94-5D43-44EB-BF61-5051B77891D7}" ShortID="834320952">
+								<Action Name="" ID="{932293A2-5CE7-49E9-92DA-E5242F97FACD}" ShortID="125701759">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="reload_fx" ID="{7380994A-5B78-47DA-AB97-DC75A644D0C6}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+											<ObjectRef Name="reload_wot" ID="{0EF1D9E1-061D-4D85-AB1B-FA0262B4DC7E}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -1016,10 +1016,10 @@
 						</Event>
 						<Event Name="GUI_notifications_FX_gun_reloaded" ID="{AFE66E43-8AD8-4897-8BDC-2D476FD2C648}">
 							<ChildrenList>
-								<Action Name="" ID="{18E4B70D-F3BF-4496-9B91-87C108AA8438}" ShortID="820385936">
+								<Action Name="" ID="{BC5C1667-371A-4B8D-87C4-799360A0D8B9}" ShortID="639720939">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="reload_fx" ID="{7380994A-5B78-47DA-AB97-DC75A644D0C6}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+											<ObjectRef Name="reload_wot" ID="{0EF1D9E1-061D-4D85-AB1B-FA0262B4DC7E}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
