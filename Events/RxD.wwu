@@ -678,6 +678,9 @@
 						<Event Name="GUI_notifications_FX_adrenalin_off" ID="{8453C072-9BD7-449C-A56A-A62B3C71756F}">
 							<ChildrenList>
 								<Action Name="" ID="{FB0470AA-5515-4C1F-B391-9D3392354FBE}" ShortID="581644656">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="2.6"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="857759281" ID="{B52F6181-574C-484C-9EA8-40C1E1D423E4}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
