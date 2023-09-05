@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BF840C82-56A2-472D-9749-B08E9D5C62E1}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="RXD" ID="{BF840C82-56A2-472D-9749-B08E9D5C62E1}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="play_wpn_auto_3p" ID="{F6AB182E-F97E-48D5-98E2-72253E0DCB61}">
+					<ChildrenList>
+						<Action Name="" ID="{BD55099E-08F3-49D5-A90A-5D2B8CB882EB}" ShortID="947837689">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="196156153" ID="{B4D95540-9F52-4C6B-B375-16144028AFE3}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_wpn_auto_1p" ID="{F8E07698-85AC-4A0D-A75F-02B4BF69D928}">
+					<ChildrenList>
+						<Action Name="" ID="{021FA30D-6BD3-42F4-A433-0100E6E99B5D}" ShortID="880436378">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="308922718" ID="{CF2EC2F8-61A8-4661-92F5-8819AB15444D}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{BE36CDE4-9AB1-48EF-A77D-EB889C75DFD7}" ShortID="526916346">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="270308489" ID="{C1B830C8-7242-4D05-A8F9-4F37B0744FF7}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_wpn_small_3p" ID="{CFDD18AB-6494-4DD2-982F-426668F4B7D3}">
+					<ChildrenList>
+						<Action Name="" ID="{576FC097-2E18-44F7-9B5B-7E7EAEEAD1B4}" ShortID="87526445">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="963519407" ID="{98C51203-4922-47FC-BD53-CF6C372B13CD}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{932C6915-0CB6-44F8-9C4A-830E459D5375}" ShortID="95482396">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="499157722" ID="{38C0AB1E-94E5-4E09-A71A-1F744DA60925}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_wpn_small_1p" ID="{F1EADE09-ED9A-42BD-8668-1BB84C17C14C}">
+					<ChildrenList>
+						<Action Name="" ID="{E221A1E2-52E7-4442-8F49-600263B192EC}" ShortID="615379998">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="416921067" ID="{4C332302-003B-471C-B8AE-7BA7CA018801}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{27F8DEEA-30F0-48C0-82B1-45A5BD3858EB}" ShortID="592033605">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="837998379" ID="{08B3FEC1-3C2B-4342-9F4F-FD165B4B8C7A}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{EF97BAFD-458A-4C73-BD76-0A0E163F0866}" ShortID="990170433">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="288197594" ID="{5EB74818-D654-46D6-820C-826F0092789D}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_wpn_huge_3p" ID="{B8B610B1-B523-482D-B423-733147869DA5}">
+					<ChildrenList>
+						<Action Name="" ID="{0FA6D4F4-7881-405C-BC89-4A433AD143C8}" ShortID="794429109">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="389075428" ID="{2E38953B-7AE8-4A56-8243-56FA5EB90F52}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A463D918-1424-4489-AB54-A2F441EB9F7A}" ShortID="829557937">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="499157722" ID="{38C0AB1E-94E5-4E09-A71A-1F744DA60925}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_wpn_huge_1p" ID="{6C3B8947-E3EE-4AE0-9E77-FD7EA9B0D2FD}">
+					<ChildrenList>
+						<Action Name="" ID="{492E0129-063F-49CB-9C28-F8EC281931FD}" ShortID="900332528">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="79448558" ID="{F5B99EBE-C0A4-496F-B79B-46DC2CD80C17}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0E6FEE3F-075B-4905-B643-F660B020B001}" ShortID="109466487">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="50279523" ID="{18D35DE2-8D3F-4B96-9910-8E7AE5E260D2}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4C59BAFF-3521-4E26-ABE2-0FBC6B3B3829}" ShortID="929258827">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="288197594" ID="{5EB74818-D654-46D6-820C-826F0092789D}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_wpn_main_extra_3p" ID="{3889F32E-B11A-4F41-B5BF-B116590D6276}">
+					<ChildrenList>
+						<Action Name="" ID="{33062545-39BB-4A10-8BCB-ABEB009962F9}" ShortID="549081430">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="92899081" ID="{92082401-167C-4875-BF3C-6F3A68BFB481}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{DDFFBFEB-163D-4529-BCFA-90718FF7FC6D}" ShortID="368163479">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="499157722" ID="{38C0AB1E-94E5-4E09-A71A-1F744DA60925}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_wpn_main_extra_1p" ID="{7943081D-3FFD-4B31-99D2-080634EB25C7}">
+					<ChildrenList>
+						<Action Name="" ID="{B81FD391-FC04-4937-B245-1DC90E74B5E7}" ShortID="377748827">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="939379403" ID="{5025E040-EC5B-496B-9961-B78F257B9CB7}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{30EC199A-301E-4476-AFB2-A598318875DF}" ShortID="955952960">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="275925533" ID="{F6EA3B8D-AFC6-4D33-A6F6-7B22903ED3E8}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6890013B-8E42-40A1-983F-2B773CC7C8BD}" ShortID="707421289">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="288197594" ID="{5EB74818-D654-46D6-820C-826F0092789D}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_wpn_huge_extra_1p" ID="{6BCB027E-6664-4D0D-A63B-3B70158BC317}">
+					<ChildrenList>
+						<Action Name="" ID="{9E23B33F-86DD-4799-A3C2-AB92B0903FCF}" ShortID="435279023">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="79448558" ID="{F5B99EBE-C0A4-496F-B79B-46DC2CD80C17}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5DF272D5-B492-4080-803B-CF0182F33410}" ShortID="560348873">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="50279523" ID="{18D35DE2-8D3F-4B96-9910-8E7AE5E260D2}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{37D86FD8-48F6-4FE7-9084-83446716B422}" ShortID="402175321">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="288197594" ID="{5EB74818-D654-46D6-820C-826F0092789D}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_wpn_huge_extra_3p" ID="{23CAFA8B-4E12-4034-8EF0-8820D01E5053}">
+					<ChildrenList>
+						<Action Name="" ID="{A8E63846-D9E1-4A06-9A31-CBB34C2A6D35}" ShortID="1015934529">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="389075428" ID="{2E38953B-7AE8-4A56-8243-56FA5EB90F52}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2E406287-07B5-4842-8BD2-34CFA9FAB4D3}" ShortID="444955488">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="499157722" ID="{38C0AB1E-94E5-4E09-A71A-1F744DA60925}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_wpn_large_extra_1p" ID="{5D377C33-32D0-4D99-9A0F-FFC70115C6F6}">
+					<ChildrenList>
+						<Action Name="" ID="{C1BCCA75-8DBA-4AA6-AF9A-826DD5584061}" ShortID="1005319959">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="581906049" ID="{D8875B60-3908-4239-88C3-0ABFF553FAEE}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{00C2A62D-4FFC-40D1-A068-DDDC988954B9}" ShortID="1029443884">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="479910983" ID="{F4D5F532-F0DA-411A-977D-0B18C3770E9B}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{546A149A-0FA3-4F87-8AB6-B79C77DE0E62}" ShortID="666177030">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="288197594" ID="{5EB74818-D654-46D6-820C-826F0092789D}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_wpn_large_extra_3p" ID="{1C812025-F250-4518-97BA-5F66E3DC3A37}">
+					<ChildrenList>
+						<Action Name="" ID="{8FA96C67-3AF8-4A9D-81A8-EFD09BE3D60D}" ShortID="535973731">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="119409991" ID="{00AEE8DA-2083-4ADB-A52A-75018527E01F}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{96D26B3B-330E-4313-894B-9A053797106B}" ShortID="273384919">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="499157722" ID="{38C0AB1E-94E5-4E09-A71A-1F744DA60925}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_wpn_mid_1p" ID="{B70D3629-6514-4656-8AB2-3CF9C227A562}">
+					<ChildrenList>
+						<Action Name="" ID="{E2F4E9E5-0A6B-40D9-A41A-4C7B4498168C}" ShortID="345790693">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="636967784" ID="{A4AEA915-CB35-48B0-8700-C32B4872F9D4}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{92FFE653-1A59-4C6C-9269-591DE860040C}" ShortID="916515254">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="353472987" ID="{B8514274-045B-485C-B119-252AFEDA8B63}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4A137B2C-C3D4-4AB4-8841-F994B0D4662F}" ShortID="727192877">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="288197594" ID="{5EB74818-D654-46D6-820C-826F0092789D}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_wpn_mid_3p" ID="{7BA6D5B0-5BE3-49E6-87AA-6BAF263A0EE5}">
+					<ChildrenList>
+						<Action Name="" ID="{2A108E3E-ACD0-46E4-80CB-088E8F8D194F}" ShortID="804553953">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="789325232" ID="{DF5EFB5C-60D3-4A92-838E-7BD164CBE1BA}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{54C83FAE-F8A0-4F38-B740-61563378919D}" ShortID="655058877">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="499157722" ID="{38C0AB1E-94E5-4E09-A71A-1F744DA60925}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_wpn_main_1p" ID="{B96A27CB-C553-4D79-8875-4203F1B1A61D}">
+					<ChildrenList>
+						<Action Name="" ID="{E616D9E4-A6DE-41A5-B6C1-1739E105195D}" ShortID="524263113">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="1021116198" ID="{A63DC7FD-C493-430C-B3CC-A0F19EC116C0}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9B795D8B-50A7-4FB8-BE03-AA43DF27A3F4}" ShortID="521662923">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="500289846" ID="{23A9F649-7392-4D61-9D9F-FD5466F4A8C4}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{20129468-6D50-4F85-9E7F-FE6721CC29DC}" ShortID="236140864">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="288197594" ID="{5EB74818-D654-46D6-820C-826F0092789D}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_wpn_main_3p" ID="{EF1DB24F-7C43-4FEF-8B29-1485D3FEF95D}">
+					<ChildrenList>
+						<Action Name="" ID="{BC561626-CE78-437F-A9D2-529C710007E0}" ShortID="305140782">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="595393968" ID="{C020D28B-FDBF-40B1-835E-773032DC0FE3}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F6E6DF52-2EFB-4D11-8816-19A24F0988AB}" ShortID="763374344">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="499157722" ID="{38C0AB1E-94E5-4E09-A71A-1F744DA60925}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_wpn_large_3p" ID="{C4597FB6-51F9-455B-8456-B5F28DBC1572}">
+					<ChildrenList>
+						<Action Name="" ID="{A18DC704-D4D9-4BF0-8943-0DCA79424950}" ShortID="767584957">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="185042733" ID="{C0697422-80CA-43FC-8FB2-52D80BACC2E3}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5A2A9642-1DC9-4CA9-99FE-C6EFB2C75E2F}" ShortID="142466004">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="499157722" ID="{38C0AB1E-94E5-4E09-A71A-1F744DA60925}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_wpn_large_1p" ID="{6B5C955D-500C-4CC8-965D-6884DF55EBB0}">
+					<ChildrenList>
+						<Action Name="" ID="{8FF2304A-DB64-404F-8BF6-365A2C719ABE}" ShortID="1010561375">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="171589473" ID="{ED2359A4-F111-46C5-B2FE-3842144550F5}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B843D8E6-DD38-4197-B3C0-D77C7CA9C6F9}" ShortID="1071136308">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="216322144" ID="{6D58A72E-E386-44BF-A550-8EA0EBE0BC3E}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6F3D9689-A55F-41C5-9916-7708C8B2EB00}" ShortID="370898749">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="288197594" ID="{5EB74818-D654-46D6-820C-826F0092789D}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

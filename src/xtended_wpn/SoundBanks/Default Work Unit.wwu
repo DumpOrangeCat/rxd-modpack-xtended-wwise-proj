@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6BE55F2D-A92C-40F5-8475-74756DB42CFF}" SchemaVersion="97">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{6BE55F2D-A92C-40F5-8475-74756DB42CFF}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="weapon" ID="{5126149E-78FB-49ED-A8D4-680C7C9CE70C}">
+					<ObjectInclusionList>
+						<ObjectRef Name="play_wpn_huge_extra_3p" ID="{23CAFA8B-4E12-4034-8EF0-8820D01E5053}" WorkUnitID="{BF840C82-56A2-472D-9749-B08E9D5C62E1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_wpn_small_1p" ID="{F1EADE09-ED9A-42BD-8668-1BB84C17C14C}" WorkUnitID="{BF840C82-56A2-472D-9749-B08E9D5C62E1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_wpn_large_extra_3p" ID="{1C812025-F250-4518-97BA-5F66E3DC3A37}" WorkUnitID="{BF840C82-56A2-472D-9749-B08E9D5C62E1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_wpn_huge_3p" ID="{B8B610B1-B523-482D-B423-733147869DA5}" WorkUnitID="{BF840C82-56A2-472D-9749-B08E9D5C62E1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_wpn_auto_3p" ID="{F6AB182E-F97E-48D5-98E2-72253E0DCB61}" WorkUnitID="{BF840C82-56A2-472D-9749-B08E9D5C62E1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_wpn_auto_1p" ID="{F8E07698-85AC-4A0D-A75F-02B4BF69D928}" WorkUnitID="{BF840C82-56A2-472D-9749-B08E9D5C62E1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_wpn_huge_1p" ID="{6C3B8947-E3EE-4AE0-9E77-FD7EA9B0D2FD}" WorkUnitID="{BF840C82-56A2-472D-9749-B08E9D5C62E1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_wpn_main_extra_1p" ID="{7943081D-3FFD-4B31-99D2-080634EB25C7}" WorkUnitID="{BF840C82-56A2-472D-9749-B08E9D5C62E1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_wpn_huge_extra_1p" ID="{6BCB027E-6664-4D0D-A63B-3B70158BC317}" WorkUnitID="{BF840C82-56A2-472D-9749-B08E9D5C62E1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_wpn_large_extra_1p" ID="{5D377C33-32D0-4D99-9A0F-FFC70115C6F6}" WorkUnitID="{BF840C82-56A2-472D-9749-B08E9D5C62E1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_wpn_small_3p" ID="{CFDD18AB-6494-4DD2-982F-426668F4B7D3}" WorkUnitID="{BF840C82-56A2-472D-9749-B08E9D5C62E1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_wpn_main_extra_3p" ID="{3889F32E-B11A-4F41-B5BF-B116590D6276}" WorkUnitID="{BF840C82-56A2-472D-9749-B08E9D5C62E1}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="weapon_basic" ID="{FD5978AA-182F-4425-9E6A-AC85C25733FE}">
+					<ObjectInclusionList>
+						<ObjectRef Name="play_wpn_large_3p" ID="{C4597FB6-51F9-455B-8456-B5F28DBC1572}" WorkUnitID="{BF840C82-56A2-472D-9749-B08E9D5C62E1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_wpn_mid_1p" ID="{B70D3629-6514-4656-8AB2-3CF9C227A562}" WorkUnitID="{BF840C82-56A2-472D-9749-B08E9D5C62E1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_wpn_mid_3p" ID="{7BA6D5B0-5BE3-49E6-87AA-6BAF263A0EE5}" WorkUnitID="{BF840C82-56A2-472D-9749-B08E9D5C62E1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_wpn_large_1p" ID="{6B5C955D-500C-4CC8-965D-6884DF55EBB0}" WorkUnitID="{BF840C82-56A2-472D-9749-B08E9D5C62E1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_wpn_main_1p" ID="{B96A27CB-C553-4D79-8875-4203F1B1A61D}" WorkUnitID="{BF840C82-56A2-472D-9749-B08E9D5C62E1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_wpn_main_3p" ID="{EF1DB24F-7C43-4FEF-8B29-1485D3FEF95D}" WorkUnitID="{BF840C82-56A2-472D-9749-B08E9D5C62E1}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
