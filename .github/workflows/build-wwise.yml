@@ -1,0 +1,41 @@
+name: Build RXD BNK + SoundbankInfo
+on:
+  push:
+    paths:
+      - '**/*.wwu'
+      - '**/*.wem'
+      - '**/*.txt'
+      - '**/*.xml'
+  workflow_dispatch:
+
+jobs:
+  build-bnk:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Download Wwise 2019.2 CLI tools
+        run: |
+          Invoke-WebRequest -Uri "https://wwise-downloads.s3.amazonaws.com/Wwise_v2019.2.14.7667/wwise_authoring_win_x64.zip" -OutFile "wwise.zip"
+          Expand-Archive -Path "wwise.zip" -DestinationPath "wwise"
+
+      - name: Build BNK using Wwise Console
+        run: |
+          ./wwise/Authoring/x64/Release/bin/WwiseConsole.exe generate-soundbank ^
+            --wwu "src/xtended_main/xtended_main.wwu" ^
+            --platform Windows ^
+            --language SFX ^
+            --output "output"
+
+      - name: Upload .bnk files
+        uses: actions/upload-artifact@v4
+        with:
+          name: BNK-files
+          path: output/**/*.bnk
+
+      - name: Upload SoundbankInfo.json
+        uses: actions/upload-artifact@v4
+        with:
+          name: SoundbankInfo
+          path: output/**/*.json
